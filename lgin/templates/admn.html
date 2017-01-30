@@ -1,0 +1,14 @@
+<center><h4>Admin View : Login Credentials</h4>
+<table border = 1px cellpadding="3" style="font-family:Arial">
+<tr>
+<th>User ID</th>
+<th>Password</th>
+</tr>
+{% for id in CamsLogin %}
+<tr>
+<td>{{id.userid}}</td>
+<td>{{id.password}}</td>
+</tr>
+{% endfor %}
+</table>
+</center>
