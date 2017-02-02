@@ -1,0 +1,165 @@
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
