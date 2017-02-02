@@ -55,6 +55,17 @@ class DeptSubEnr(models.Model):
         db_table = 'dept_sub_enr'
 
 
+class DjangoMigrations(models.Model):
+    id = models.IntegerField(primary_key=True)  # AutoField?
+    app = models.CharField(max_length=510, blank=True, null=True)
+    name = models.CharField(max_length=510, blank=True, null=True)
+    applied = models.DateTimeField()
+
+    class Meta:
+        managed = False
+        db_table = 'django_migrations'
+
+
 class FacEnr(models.Model):
     sfid = models.FloatField(blank=True, null=True)
     fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)
