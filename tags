@@ -1,0 +1,443 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	lgin/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	cams/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	cams/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:93
+AuthGroup	models.py	/^class AuthGroup(models.Model):$/;"	kind:class	line:13
+AuthGroupPermissions	models.py	/^class AuthGroupPermissions(models.Model):$/;"	kind:class	line:22
+AuthPermission	models.py	/^class AuthPermission(models.Model):$/;"	kind:class	line:33
+AuthUser	models.py	/^class AuthUser(models.Model):$/;"	kind:class	line:45
+AuthUserGroups	models.py	/^class AuthUserGroups(models.Model):$/;"	kind:class	line:63
+AuthUserUserPermissions	models.py	/^class AuthUserUserPermissions(models.Model):$/;"	kind:class	line:74
+BASE_DIR	cams/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CamsLogin	lgin/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:13
+CamsLogin	models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:85
+ClassTchr	lgin/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:22
+ClassTchr	models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:94
+DATABASES	cams/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+DEBUG	cams/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DjangoAdminLog	models.py	/^class DjangoAdminLog(models.Model):$/;"	kind:class	line:106
+DjangoContentType	models.py	/^class DjangoContentType(models.Model):$/;"	kind:class	line:121
+DjangoMigrations	models.py	/^class DjangoMigrations(models.Model):$/;"	kind:class	line:132
+DjangoSession	models.py	/^class DjangoSession(models.Model):$/;"	kind:class	line:143
+FacultyEnr	lgin/models.py	/^class FacultyEnr(models.Model):$/;"	kind:class	line:34
+FacultyEnr	models.py	/^class FacultyEnr(models.Model):$/;"	kind:class	line:153
+FacultyList	lgin/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:48
+FacultyList	models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:167
+FacultyResponsibility	lgin/models.py	/^class FacultyResponsibility(models.Model):$/;"	kind:class	line:59
+FacultyResponsibility	models.py	/^class FacultyResponsibility(models.Model):$/;"	kind:class	line:178
+FrontendModule	models.py	/^class FrontendModule(models.Model):$/;"	kind:class	line:188
+INSTALLED_APPS	cams/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	cams/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:112
+LginConfig	lgin/apps.py	/^class LginConfig(AppConfig):$/;"	kind:class	line:4
+MIDDLEWARE	cams/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:46
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:110
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:121
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:135
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:144
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:154
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:17
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:28
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:43
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:54
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:63
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:74
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:84
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:98
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:100
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:116
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:126
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:138
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:148
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:162
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:17
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:173
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:182
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:193
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:203
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:213
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:227
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:239
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:250
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:264
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:27
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:273
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:283
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:39
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:58
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:89
+Migration	lgin/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+NameForm	lgin/forms.py	/^class NameForm(forms.Form):$/;"	kind:class	line:4
+ROOT_URLCONF	cams/settings.py	/^ROOT_URLCONF = 'cams.urls'$/;"	kind:variable	line:56
+STATIC_URL	cams/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:126
+StudentAtt	lgin/models.py	/^class StudentAtt(models.Model):$/;"	kind:class	line:69
+StudentAtt	models.py	/^class StudentAtt(models.Model):$/;"	kind:class	line:198
+StudentClassenr	lgin/models.py	/^class StudentClassenr(models.Model):$/;"	kind:class	line:80
+StudentClassenr	models.py	/^class StudentClassenr(models.Model):$/;"	kind:class	line:209
+StudentList	lgin/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:90
+StudentList	models.py	/^class StudentList(models.Model):$/;"	kind:class	line:219
+StudentSemenr	lgin/models.py	/^class StudentSemenr(models.Model):$/;"	kind:class	line:103
+StudentSemenr	models.py	/^class StudentSemenr(models.Model):$/;"	kind:class	line:232
+SubjectList	lgin/models.py	/^class SubjectList(models.Model):$/;"	kind:class	line:116
+SubjectList	models.py	/^class SubjectList(models.Model):$/;"	kind:class	line:245
+TEMPLATES	cams/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	cams/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:114
+TestId	lgin/models.py	/^class TestId(models.Model):$/;"	kind:class	line:127
+TestId	models.py	/^class TestId(models.Model):$/;"	kind:class	line:256
+TestNo	lgin/models.py	/^class TestNo(models.Model):$/;"	kind:class	line:140
+TestNo	models.py	/^class TestNo(models.Model):$/;"	kind:class	line:269
+USE_I18N	cams/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
+USE_L10N	cams/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
+USE_TZ	cams/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
+WSGI_APPLICATION	cams/settings.py	/^WSGI_APPLICATION = 'cams.wsgi.application'$/;"	kind:variable	line:74
+WriteTest	lgin/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:149
+WriteTest	models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:278
+__init__.py	cams/__init__.py	1;"	kind:file	line:1
+__init__.py	lgin/__init__.py	1;"	kind:file	line:1
+__init__.py	lgin/migrations/__init__.py	1;"	kind:file	line:1
+action_flag	models.py	/^    action_flag = models.IntegerField()$/;"	kind:variable	line:111
+action_time	models.py	/^    action_time = models.DateTimeField()$/;"	kind:variable	line:108
+address	lgin/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:94
+address	models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:223
+admin.py	lgin/admin.py	1;"	kind:file	line:1
+admn	lgin/views.py	/^def admn(request):$/;"	kind:function	line:12
+app	models.py	/^    app = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:134
+app_label	models.py	/^    app_label = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:123
+application	cams/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+applied	models.py	/^    applied = models.DateTimeField()$/;"	kind:variable	line:136
+apps.py	lgin/apps.py	1;"	kind:file	line:1
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:105
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:119
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:131
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:52
+branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:234
+branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:248
+branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:260
+branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:171
+change_message	models.py	/^    change_message = models.TextField(blank=True, null=True)$/;"	kind:variable	line:112
+codename	models.py	/^    codename = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:37
+content_type	models.py	/^    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)$/;"	kind:variable	line:36
+content_type	models.py	/^    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)$/;"	kind:variable	line:113
+ctea	lgin/views.py	/^def ctea(request):$/;"	kind:function	line:36
+date_joined	models.py	/^    date_joined = models.DateTimeField()$/;"	kind:variable	line:56
+day	lgin/models.py	/^    day = models.CharField(max_length=3)$/;"	kind:variable	line:38
+day	models.py	/^    day = models.CharField(max_length=3)$/;"	kind:variable	line:157
+db_table	lgin/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:19
+db_table	lgin/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:30
+db_table	lgin/models.py	/^        db_table = 'faculty_enr'$/;"	kind:variable	line:45
+db_table	lgin/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:56
+db_table	lgin/models.py	/^        db_table = 'faculty_responsibility'$/;"	kind:variable	line:65
+db_table	lgin/models.py	/^        db_table = 'student_att'$/;"	kind:variable	line:76
+db_table	lgin/models.py	/^        db_table = 'student_classenr'$/;"	kind:variable	line:86
+db_table	lgin/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:100
+db_table	lgin/models.py	/^        db_table = 'student_semenr'$/;"	kind:variable	line:112
+db_table	lgin/models.py	/^        db_table = 'subject_list'$/;"	kind:variable	line:123
+db_table	lgin/models.py	/^        db_table = 'test_id'$/;"	kind:variable	line:137
+db_table	lgin/models.py	/^        db_table = 'test_no'$/;"	kind:variable	line:146
+db_table	lgin/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:156
+db_table	models.py	/^        db_table = 'auth_group'$/;"	kind:variable	line:19
+db_table	models.py	/^        db_table = 'auth_group_permissions'$/;"	kind:variable	line:29
+db_table	models.py	/^        db_table = 'auth_permission'$/;"	kind:variable	line:41
+db_table	models.py	/^        db_table = 'auth_user'$/;"	kind:variable	line:60
+db_table	models.py	/^        db_table = 'auth_user_groups'$/;"	kind:variable	line:70
+db_table	models.py	/^        db_table = 'auth_user_user_permissions'$/;"	kind:variable	line:81
+db_table	models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:91
+db_table	models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:102
+db_table	models.py	/^        db_table = 'django_admin_log'$/;"	kind:variable	line:118
+db_table	models.py	/^        db_table = 'django_content_type'$/;"	kind:variable	line:128
+db_table	models.py	/^        db_table = 'django_migrations'$/;"	kind:variable	line:140
+db_table	models.py	/^        db_table = 'django_session'$/;"	kind:variable	line:150
+db_table	models.py	/^        db_table = 'faculty_enr'$/;"	kind:variable	line:164
+db_table	models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:175
+db_table	models.py	/^        db_table = 'faculty_responsibility'$/;"	kind:variable	line:184
+db_table	models.py	/^        db_table = 'frontend_module'$/;"	kind:variable	line:195
+db_table	models.py	/^        db_table = 'student_att'$/;"	kind:variable	line:205
+db_table	models.py	/^        db_table = 'student_classenr'$/;"	kind:variable	line:215
+db_table	models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:229
+db_table	models.py	/^        db_table = 'student_semenr'$/;"	kind:variable	line:241
+db_table	models.py	/^        db_table = 'subject_list'$/;"	kind:variable	line:252
+db_table	models.py	/^        db_table = 'test_id'$/;"	kind:variable	line:266
+db_table	models.py	/^        db_table = 'test_no'$/;"	kind:variable	line:275
+db_table	models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:285
+decrole	lgin/views.py	/^def decrole(request):$/;"	kind:function	line:52
+dependencies	lgin/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+designation	lgin/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:51
+designation	models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:170
+dte	lgin/models.py	/^    dte = models.DateField()$/;"	kind:variable	line:72
+dte	models.py	/^    dte = models.DateField()$/;"	kind:variable	line:201
+email	models.py	/^    email = models.CharField(max_length=508, blank=True, null=True)$/;"	kind:variable	line:53
+eno	lgin/models.py	/^    eno = models.FloatField(primary_key=True)$/;"	kind:variable	line:35
+eno	lgin/models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:71
+eno	lgin/models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:82
+eno	models.py	/^    eno = models.FloatField(primary_key=True)$/;"	kind:variable	line:154
+eno	models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:200
+eno	models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:211
+expire_date	models.py	/^    expire_date = models.DateTimeField()$/;"	kind:variable	line:146
+facu	lgin/views.py	/^def facu(request):$/;"	kind:function	line:29
+fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:36
+fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid',primary_key=True)$/;"	kind:variable	line:23
+fid	lgin/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:49
+fid	lgin/models.py	/^    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:60
+fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:155
+fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:95
+fid	models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:168
+fid	models.py	/^    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:179
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:143
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:156
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:168
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:183
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:194
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:206
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:217
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:227
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:240
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:253
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:268
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:279
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:292
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:307
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:52
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
+fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
+first_name	models.py	/^    first_name = models.CharField(max_length=60, blank=True, null=True)$/;"	kind:variable	line:51
+forms.py	lgin/forms.py	1;"	kind:file	line:1
+group	models.py	/^    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)$/;"	kind:variable	line:24
+group	models.py	/^    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)$/;"	kind:variable	line:66
+hod	lgin/views.py	/^def hod(request):$/;"	kind:function	line:22
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:107
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:122
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:133
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:14
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:189
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:23
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:34
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:46
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:64
+id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:75
+initial	lgin/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+installed	models.py	/^    installed = models.BooleanField()$/;"	kind:variable	line:191
+is_active	models.py	/^    is_active = models.BooleanField()$/;"	kind:variable	line:55
+is_staff	models.py	/^    is_staff = models.BooleanField()$/;"	kind:variable	line:54
+is_superuser	models.py	/^    is_superuser = models.BooleanField()$/;"	kind:variable	line:49
+joining	lgin/models.py	/^    joining = models.DateField()$/;"	kind:variable	line:93
+joining	models.py	/^    joining = models.DateField()$/;"	kind:variable	line:222
+label	models.py	/^    label = models.CharField(max_length=100, blank=True, null=True)$/;"	kind:variable	line:190
+last_login	models.py	/^    last_login = models.DateTimeField(blank=True, null=True)$/;"	kind:variable	line:48
+last_name	models.py	/^    last_name = models.CharField(max_length=60, blank=True, null=True)$/;"	kind:variable	line:52
+lerror	lgin/views.py	/^def lerror(request):$/;"	kind:function	line:18
+login	lgin/views.py	/^def login(request):$/;"	kind:function	line:74
+manage.py	manage.py	1;"	kind:file	line:1
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:111
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:122
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:136
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:145
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:155
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:18
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:29
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:44
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:55
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:64
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:75
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:85
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:99
+managed	models.py	/^        managed = False$/;"	kind:variable	line:101
+managed	models.py	/^        managed = False$/;"	kind:variable	line:117
+managed	models.py	/^        managed = False$/;"	kind:variable	line:127
+managed	models.py	/^        managed = False$/;"	kind:variable	line:139
+managed	models.py	/^        managed = False$/;"	kind:variable	line:149
+managed	models.py	/^        managed = False$/;"	kind:variable	line:163
+managed	models.py	/^        managed = False$/;"	kind:variable	line:174
+managed	models.py	/^        managed = False$/;"	kind:variable	line:18
+managed	models.py	/^        managed = False$/;"	kind:variable	line:183
+managed	models.py	/^        managed = False$/;"	kind:variable	line:194
+managed	models.py	/^        managed = False$/;"	kind:variable	line:204
+managed	models.py	/^        managed = False$/;"	kind:variable	line:214
+managed	models.py	/^        managed = False$/;"	kind:variable	line:228
+managed	models.py	/^        managed = False$/;"	kind:variable	line:240
+managed	models.py	/^        managed = False$/;"	kind:variable	line:251
+managed	models.py	/^        managed = False$/;"	kind:variable	line:265
+managed	models.py	/^        managed = False$/;"	kind:variable	line:274
+managed	models.py	/^        managed = False$/;"	kind:variable	line:28
+managed	models.py	/^        managed = False$/;"	kind:variable	line:284
+managed	models.py	/^        managed = False$/;"	kind:variable	line:40
+managed	models.py	/^        managed = False$/;"	kind:variable	line:59
+managed	models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	models.py	/^        managed = False$/;"	kind:variable	line:90
+mentorid	lgin/models.py	/^    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)$/;"	kind:variable	line:108
+mentorid	models.py	/^    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)$/;"	kind:variable	line:237
+model	models.py	/^    model = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:124
+models.py	lgin/models.py	1;"	kind:file	line:1
+models.py	models.py	1;"	kind:file	line:1
+name	lgin/apps.py	/^    name = 'lgin'$/;"	kind:variable	line:5
+name	lgin/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
+name	lgin/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
+name	lgin/migrations/0001_initial.py	/^            name='AuthPermission',$/;"	kind:variable	line:39
+name	lgin/migrations/0001_initial.py	/^            name='AuthUser',$/;"	kind:variable	line:51
+name	lgin/migrations/0001_initial.py	/^            name='AuthUserGroups',$/;"	kind:variable	line:71
+name	lgin/migrations/0001_initial.py	/^            name='AuthUserUserPermissions',$/;"	kind:variable	line:81
+name	lgin/migrations/0001_initial.py	/^            name='CamsLogin',$/;"	kind:variable	line:91
+name	lgin/migrations/0001_initial.py	/^            name='ClassTchr',$/;"	kind:variable	line:102
+name	lgin/migrations/0001_initial.py	/^            name='DjangoAdminLog',$/;"	kind:variable	line:115
+name	lgin/migrations/0001_initial.py	/^            name='DjangoContentType',$/;"	kind:variable	line:130
+name	lgin/migrations/0001_initial.py	/^            name='DjangoMigrations',$/;"	kind:variable	line:142
+name	lgin/migrations/0001_initial.py	/^            name='DjangoSession',$/;"	kind:variable	line:155
+name	lgin/migrations/0001_initial.py	/^            name='FacultyEnr',$/;"	kind:variable	line:167
+name	lgin/migrations/0001_initial.py	/^            name='FacultyList',$/;"	kind:variable	line:278
+name	lgin/migrations/0001_initial.py	/^            name='FacultyResponsibility',$/;"	kind:variable	line:182
+name	lgin/migrations/0001_initial.py	/^            name='FrontendModule',$/;"	kind:variable	line:193
+name	lgin/migrations/0001_initial.py	/^            name='StudentAtt',$/;"	kind:variable	line:205
+name	lgin/migrations/0001_initial.py	/^            name='StudentClassenr',$/;"	kind:variable	line:216
+name	lgin/migrations/0001_initial.py	/^            name='StudentList',$/;"	kind:variable	line:291
+name	lgin/migrations/0001_initial.py	/^            name='StudentSemenr',$/;"	kind:variable	line:226
+name	lgin/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:variable	line:239
+name	lgin/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
+name	lgin/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
+name	lgin/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
+name	lgin/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:50
+name	lgin/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:92
+name	models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:169
+name	models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:221
+name	models.py	/^    name = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:135
+name	models.py	/^    name = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:35
+name	models.py	/^    name = models.CharField(unique=True, max_length=160, blank=True, null=True)$/;"	kind:variable	line:15
+object_id	models.py	/^    object_id = models.TextField(blank=True, null=True)$/;"	kind:variable	line:109
+object_repr	models.py	/^    object_repr = models.CharField(max_length=400, blank=True, null=True)$/;"	kind:variable	line:110
+operations	lgin/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:149
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:161
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:176
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:187
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:199
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:210
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:220
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:23
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:233
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:246
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:261
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:272
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:285
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:300
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:311
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:45
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:65
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
+options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
+parent_phno	lgin/models.py	/^    parent_phno = models.CharField(max_length=15)$/;"	kind:variable	line:96
+parent_phno	models.py	/^    parent_phno = models.CharField(max_length=15)$/;"	kind:variable	line:225
+password	lgin/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:15
+password	models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:87
+password	models.py	/^    password = models.CharField(max_length=256, blank=True, null=True)$/;"	kind:variable	line:47
+permission	models.py	/^    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)$/;"	kind:variable	line:25
+permission	models.py	/^    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)$/;"	kind:variable	line:77
+phno	lgin/models.py	/^    phno = models.CharField(max_length=15)$/;"	kind:variable	line:95
+phno	models.py	/^    phno = models.CharField(max_length=15)$/;"	kind:variable	line:224
+pwd	lgin/forms.py	/^    pwd = forms.CharField(label=mark_safe('<br>Password:'), max_length=10,)/;"	kind:variable	line:6
+responsibility	lgin/models.py	/^    responsibility = models.CharField(max_length=10)$/;"	kind:variable	line:61
+responsibility	models.py	/^    responsibility = models.CharField(max_length=10)$/;"	kind:variable	line:180
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:117
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:142
+scode	models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:246
+scode	models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:271
+score	lgin/models.py	/^    score = models.IntegerField(blank=True, null=True)$/;"	kind:variable	line:152
+score	models.py	/^    score = models.IntegerField(blank=True, null=True)$/;"	kind:variable	line:281
+section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:107
+section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:24
+section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:39
+section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:158
+section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:236
+section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:96
+sem	lgin/models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:106
+sem	lgin/models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:41
+sem	lgin/models.py	/^    sem = models.BooleanField(primary_key=True)$/;"	kind:variable	line:25
+sem	lgin/models.py	/^    sem = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:132
+sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:160
+sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:235
+sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:97
+sem	models.py	/^    sem = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:261
+session_data	models.py	/^    session_data = models.TextField(blank=True, null=True)$/;"	kind:variable	line:145
+session_key	models.py	/^    session_key = models.CharField(primary_key=True, max_length=80)$/;"	kind:variable	line:144
+settings.py	cams/settings.py	1;"	kind:file	line:1
+slot	lgin/models.py	/^    slot = models.BooleanField()$/;"	kind:variable	line:37
+slot	lgin/models.py	/^    slot = models.CharField(max_length=1)$/;"	kind:variable	line:130
+slot	models.py	/^    slot = models.BooleanField()$/;"	kind:variable	line:156
+slot	models.py	/^    slot = models.CharField(max_length=1)$/;"	kind:variable	line:259
+sname	lgin/models.py	/^    sname = models.CharField(max_length=100)$/;"	kind:variable	line:118
+sname	models.py	/^    sname = models.CharField(max_length=100)$/;"	kind:variable	line:247
+student	lgin/views.py	/^def student(request):$/;"	kind:function	line:43
+tests.py	lgin/tests.py	1;"	kind:file	line:1
+tid	lgin/models.py	/^    tid = models.CharField(primary_key=True, max_length=9)$/;"	kind:variable	line:128
+tid	lgin/models.py	/^    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)$/;"	kind:variable	line:141
+tid	lgin/models.py	/^    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')$/;"	kind:variable	line:151
+tid	models.py	/^    tid = models.CharField(primary_key=True, max_length=9)$/;"	kind:variable	line:257
+tid	models.py	/^    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)$/;"	kind:variable	line:270
+tid	models.py	/^    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')$/;"	kind:variable	line:280
+tno	lgin/models.py	/^    tno = models.NullBooleanField()$/;"	kind:variable	line:133
+tno	models.py	/^    tno = models.NullBooleanField()$/;"	kind:variable	line:262
+uid	lgin/views.py	/^uid=None$/;"	kind:variable	line:8
+unique_together	lgin/models.py	/^        unique_together = (('fid', 'responsibility'),)$/;"	kind:variable	line:66
+unique_together	lgin/models.py	/^        unique_together = (('fid', 'sem', 'year'),)$/;"	kind:variable	line:31
+unique_together	lgin/models.py	/^        unique_together = (('scode', 'branch'),)$/;"	kind:variable	line:124
+unique_together	lgin/models.py	/^        unique_together = (('usn', 'eno'),)$/;"	kind:variable	line:87
+unique_together	lgin/models.py	/^        unique_together = (('usn', 'eno', 'dte'),)$/;"	kind:variable	line:77
+unique_together	lgin/models.py	/^        unique_together = (('usn', 'sem', 'section'),)$/;"	kind:variable	line:113
+unique_together	lgin/models.py	/^        unique_together = (('usn', 'tid'),)$/;"	kind:variable	line:157
+unique_together	models.py	/^        unique_together = (('app_label', 'model'),)$/;"	kind:variable	line:129
+unique_together	models.py	/^        unique_together = (('content_type', 'codename'),)$/;"	kind:variable	line:42
+unique_together	models.py	/^        unique_together = (('fid', 'responsibility'),)$/;"	kind:variable	line:185
+unique_together	models.py	/^        unique_together = (('fid', 'sem', 'year'),)$/;"	kind:variable	line:103
+unique_together	models.py	/^        unique_together = (('group', 'permission'),)$/;"	kind:variable	line:30
+unique_together	models.py	/^        unique_together = (('scode', 'branch'),)$/;"	kind:variable	line:253
+unique_together	models.py	/^        unique_together = (('user', 'group'),)$/;"	kind:variable	line:71
+unique_together	models.py	/^        unique_together = (('user', 'permission'),)$/;"	kind:variable	line:82
+unique_together	models.py	/^        unique_together = (('usn', 'eno'),)$/;"	kind:variable	line:216
+unique_together	models.py	/^        unique_together = (('usn', 'eno', 'dte'),)$/;"	kind:variable	line:206
+unique_together	models.py	/^        unique_together = (('usn', 'sem', 'section'),)$/;"	kind:variable	line:242
+unique_together	models.py	/^        unique_together = (('usn', 'tid'),)$/;"	kind:variable	line:286
+urlpatterns	cams/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	lgin/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urls.py	cams/urls.py	1;"	kind:file	line:1
+urls.py	lgin/urls.py	1;"	kind:file	line:1
+user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:114
+user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:65
+user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:76
+userid	lgin/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:14
+userid	models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:86
+username	models.py	/^    username = models.CharField(unique=True, max_length=300, blank=True, null=True)$/;"	kind:variable	line:50
+usn	lgin/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:70
+usn	lgin/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:81
+usn	lgin/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:91
+usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:104
+usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:150
+usn	models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:199
+usn	models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:210
+usn	models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:220
+usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:233
+usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:279
+usr	lgin/forms.py	/^    usr = forms.CharField(label='Username:', max_length=100)$/;"	kind:variable	line:5
+views.py	lgin/views.py	1;"	kind:file	line:1
+wsgi.py	cams/wsgi.py	1;"	kind:file	line:1
+year	lgin/models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:129
+year	lgin/models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:40
+year	lgin/models.py	/^    year = models.IntegerField(primary_key=True)$/;"	kind:variable	line:26
+year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:159
+year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:258
+year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:98
