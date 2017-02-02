@@ -10,6 +10,20 @@ from __future__ import unicode_literals
 from django.db import models
 
 
+class Att(models.Model):
+    sur8 = models.FloatField(blank=True, null=True)
+    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    year = models.DateField(blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
+    day = models.CharField(max_length=3, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'att'
+        unique_together = (('usn', 'year', 'slot'),)
+
+
 class CamsLogin(models.Model):
     userid = models.CharField(primary_key=True, max_length=10)
     password = models.CharField(max_length=10, blank=True, null=True)
@@ -20,10 +34,11 @@ class CamsLogin(models.Model):
 
 
 class ClassTchr(models.Model):
-    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid',primary_key=True)
+    sfid = models.FloatField(primary_key=True)
+    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)
     section = models.CharField(max_length=1)
-    sem = models.BooleanField(primary_key=True)
-    year = models.IntegerField(primary_key=True)
+    sem = models.FloatField(blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -31,18 +46,20 @@ class ClassTchr(models.Model):
         unique_together = (('fid', 'sem', 'year'),)
 
 
-class FacultyEnr(models.Model):
-    eno = models.FloatField(primary_key=True)
-    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')
-    slot = models.BooleanField()
-    day = models.CharField(max_length=3)
+class FacEnr(models.Model):
+    sur7 = models.FloatField(blank=True, null=True)
+    fid = models.CharField(max_length=7, blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
+    day = models.CharField(max_length=3, blank=True, null=True)
     section = models.CharField(max_length=1)
-    year = models.IntegerField()
-    sem = models.BooleanField()
+    branch = models.CharField(max_length=2, blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'faculty_enr'
+        db_table = 'fac_enr'
+        unique_together = (('fid', 'slot', 'day', 'year'),)
 
 
 class FacultyList(models.Model):
@@ -56,102 +73,79 @@ class FacultyList(models.Model):
         db_table = 'faculty_list'
 
 
-class FacultyResponsibility(models.Model):
-    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')
-    responsibility = models.CharField(max_length=10)
-
-    class Meta:
-        managed = False
-        db_table = 'faculty_responsibility'
-        unique_together = (('fid', 'responsibility'),)
-
-
-class StudentAtt(models.Model):
-    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')
-    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')
-    dte = models.DateField()
-
-    class Meta:
-        managed = False
-        db_table = 'student_att'
-        unique_together = (('usn', 'eno', 'dte'),)
-
-
-class StudentClassenr(models.Model):
-    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')
-    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')
-
-    class Meta:
-        managed = False
-        db_table = 'student_classenr'
-        unique_together = (('usn', 'eno'),)
-
-
 class StudentList(models.Model):
     usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)
-    name = models.CharField(max_length=30)
-    joining = models.DateField()
+    sname = models.CharField(max_length=30, blank=True, null=True)
+    sem = models.FloatField(blank=True, null=True)
+    branch = models.CharField(max_length=4, blank=True, null=True)
+    year_of_joining = models.DateField(blank=True, null=True)
     address = models.CharField(max_length=300, blank=True, null=True)
-    phno = models.CharField(max_length=15)
-    parent_phno = models.CharField(max_length=15)
+    parent_phno = models.BigIntegerField(blank=True, null=True)
+    phno = models.BigIntegerField(blank=True, null=True)
+    password = models.CharField(max_length=20, blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'student_list'
 
 
-class StudentSemenr(models.Model):
-    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')
-    branch = models.CharField(max_length=2)
-    sem = models.BooleanField()
-    section = models.CharField(max_length=1)
-    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)
+class StudentSemEnr(models.Model):
+    sur2 = models.FloatField(primary_key=True)
+    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    branch = models.CharField(max_length=2, blank=True, null=True)
+    sem = models.FloatField(blank=True, null=True)
+    batch = models.FloatField(blank=True, null=True)
+    section = models.CharField(max_length=1, blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'student_semenr'
-        unique_together = (('usn', 'sem', 'section'),)
+        db_table = 'student_sem_enr'
+        unique_together = (('usn', 'sem', 'section', 'year'),)
 
 
-class SubjectList(models.Model):
-    scode = models.CharField(max_length=8)
-    sname = models.CharField(max_length=100)
-    branch = models.CharField(max_length=2)
+class StudentSubEnr(models.Model):
+    sur3 = models.FloatField(primary_key=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
+    sname = models.CharField(max_length=50, blank=True, null=True)
+    branch = models.CharField(max_length=2, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'subject_list'
+        db_table = 'student_sub_enr'
         unique_together = (('scode', 'branch'),)
 
 
-class TestId(models.Model):
-    tid = models.CharField(primary_key=True, max_length=9)
-    year = models.IntegerField()
-    slot = models.CharField(max_length=1)
-    branch = models.CharField(max_length=2)
-    sem = models.CharField(max_length=1, blank=True, null=True)
-    tno = models.NullBooleanField()
+class TestSub(models.Model):
+    sur5 = models.FloatField(primary_key=True)
+    tno = models.FloatField(blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'test_id'
+        db_table = 'test_sub'
+        unique_together = (('tno', 'scode'),)
 
 
-class TestNo(models.Model):
-    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)
-    scode = models.CharField(max_length=8)
+class TestTme(models.Model):
+    sur4 = models.FloatField(primary_key=True)
+    tno = models.FloatField(blank=True, null=True)
+    dte = models.DateField(blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'test_no'
+        db_table = 'test_tme'
+        unique_together = (('tno', 'dte', 'slot'),)
 
 
 class WriteTest(models.Model):
-    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')
-    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')
-    score = models.IntegerField(blank=True, null=True)
+    sur6 = models.FloatField(primary_key=True)
+    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)
+    score = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'write_test'
-        unique_together = (('usn', 'tid'),)
+        unique_together = (('usn', 'score'),)

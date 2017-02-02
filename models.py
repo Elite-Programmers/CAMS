@@ -10,76 +10,18 @@ from __future__ import unicode_literals
 from django.db import models
 
 
-class AuthGroup(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    name = models.CharField(unique=True, max_length=160, blank=True, null=True)
+class Att(models.Model):
+    sur8 = models.FloatField(blank=True, null=True)
+    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    year = models.DateField(blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
+    day = models.CharField(max_length=3, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'auth_group'
-
-
-class AuthGroupPermissions(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_group_permissions'
-        unique_together = (('group', 'permission'),)
-
-
-class AuthPermission(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    name = models.CharField(max_length=510, blank=True, null=True)
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)
-    codename = models.CharField(max_length=200, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_permission'
-        unique_together = (('content_type', 'codename'),)
-
-
-class AuthUser(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    password = models.CharField(max_length=256, blank=True, null=True)
-    last_login = models.DateTimeField(blank=True, null=True)
-    is_superuser = models.BooleanField()
-    username = models.CharField(unique=True, max_length=300, blank=True, null=True)
-    first_name = models.CharField(max_length=60, blank=True, null=True)
-    last_name = models.CharField(max_length=60, blank=True, null=True)
-    email = models.CharField(max_length=508, blank=True, null=True)
-    is_staff = models.BooleanField()
-    is_active = models.BooleanField()
-    date_joined = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user'
-
-
-class AuthUserGroups(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_groups'
-        unique_together = (('user', 'group'),)
-
-
-class AuthUserUserPermissions(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_user_permissions'
-        unique_together = (('user', 'permission'),)
+        db_table = 'att'
+        unique_together = (('usn', 'year', 'slot'),)
 
 
 class CamsLogin(models.Model):
@@ -92,10 +34,11 @@ class CamsLogin(models.Model):
 
 
 class ClassTchr(models.Model):
-    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')
+    sfid = models.FloatField(primary_key=True)
+    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)
     section = models.CharField(max_length=1)
-    sem = models.BooleanField()
-    year = models.IntegerField()
+    sem = models.FloatField(blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -103,65 +46,20 @@ class ClassTchr(models.Model):
         unique_together = (('fid', 'sem', 'year'),)
 
 
-class DjangoAdminLog(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    action_time = models.DateTimeField()
-    object_id = models.TextField(blank=True, null=True)
-    object_repr = models.CharField(max_length=400, blank=True, null=True)
-    action_flag = models.IntegerField()
-    change_message = models.TextField(blank=True, null=True)
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'django_admin_log'
-
-
-class DjangoContentType(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    app_label = models.CharField(max_length=200, blank=True, null=True)
-    model = models.CharField(max_length=200, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'django_content_type'
-        unique_together = (('app_label', 'model'),)
-
-
-class DjangoMigrations(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    app = models.CharField(max_length=510, blank=True, null=True)
-    name = models.CharField(max_length=510, blank=True, null=True)
-    applied = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_migrations'
-
-
-class DjangoSession(models.Model):
-    session_key = models.CharField(primary_key=True, max_length=80)
-    session_data = models.TextField(blank=True, null=True)
-    expire_date = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_session'
-
-
-class FacultyEnr(models.Model):
-    eno = models.FloatField(primary_key=True)
-    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')
-    slot = models.BooleanField()
-    day = models.CharField(max_length=3)
+class FacEnr(models.Model):
+    sur7 = models.FloatField(blank=True, null=True)
+    fid = models.CharField(max_length=7, blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
+    day = models.CharField(max_length=3, blank=True, null=True)
     section = models.CharField(max_length=1)
-    year = models.IntegerField()
-    sem = models.BooleanField()
+    branch = models.CharField(max_length=2, blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'faculty_enr'
+        db_table = 'fac_enr'
+        unique_together = (('fid', 'slot', 'day', 'year'),)
 
 
 class FacultyList(models.Model):
@@ -175,112 +73,79 @@ class FacultyList(models.Model):
         db_table = 'faculty_list'
 
 
-class FacultyResponsibility(models.Model):
-    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')
-    responsibility = models.CharField(max_length=10)
-
-    class Meta:
-        managed = False
-        db_table = 'faculty_responsibility'
-        unique_together = (('fid', 'responsibility'),)
-
-
-class FrontendModule(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
-    label = models.CharField(max_length=100, blank=True, null=True)
-    installed = models.BooleanField()
-
-    class Meta:
-        managed = False
-        db_table = 'frontend_module'
-
-
-class StudentAtt(models.Model):
-    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')
-    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')
-    dte = models.DateField()
-
-    class Meta:
-        managed = False
-        db_table = 'student_att'
-        unique_together = (('usn', 'eno', 'dte'),)
-
-
-class StudentClassenr(models.Model):
-    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')
-    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')
-
-    class Meta:
-        managed = False
-        db_table = 'student_classenr'
-        unique_together = (('usn', 'eno'),)
-
-
 class StudentList(models.Model):
     usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)
-    name = models.CharField(max_length=30)
-    joining = models.DateField()
+    sname = models.CharField(max_length=30, blank=True, null=True)
+    sem = models.FloatField(blank=True, null=True)
+    branch = models.CharField(max_length=4, blank=True, null=True)
+    year_of_joining = models.DateField(blank=True, null=True)
     address = models.CharField(max_length=300, blank=True, null=True)
-    phno = models.CharField(max_length=15)
-    parent_phno = models.CharField(max_length=15)
+    parent_phno = models.BigIntegerField(blank=True, null=True)
+    phno = models.BigIntegerField(blank=True, null=True)
+    password = models.CharField(max_length=20, blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'student_list'
 
 
-class StudentSemenr(models.Model):
-    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')
-    branch = models.CharField(max_length=2)
-    sem = models.BooleanField()
-    section = models.CharField(max_length=1)
-    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)
+class StudentSemEnr(models.Model):
+    sur2 = models.FloatField(primary_key=True)
+    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    branch = models.CharField(max_length=2, blank=True, null=True)
+    sem = models.FloatField(blank=True, null=True)
+    batch = models.FloatField(blank=True, null=True)
+    section = models.CharField(max_length=1, blank=True, null=True)
+    year = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'student_semenr'
-        unique_together = (('usn', 'sem', 'section'),)
+        db_table = 'student_sem_enr'
+        unique_together = (('usn', 'sem', 'section', 'year'),)
 
 
-class SubjectList(models.Model):
-    scode = models.CharField(max_length=8)
-    sname = models.CharField(max_length=100)
-    branch = models.CharField(max_length=2)
+class StudentSubEnr(models.Model):
+    sur3 = models.FloatField(primary_key=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
+    sname = models.CharField(max_length=50, blank=True, null=True)
+    branch = models.CharField(max_length=2, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'subject_list'
+        db_table = 'student_sub_enr'
         unique_together = (('scode', 'branch'),)
 
 
-class TestId(models.Model):
-    tid = models.CharField(primary_key=True, max_length=9)
-    year = models.IntegerField()
-    slot = models.CharField(max_length=1)
-    branch = models.CharField(max_length=2)
-    sem = models.CharField(max_length=1, blank=True, null=True)
-    tno = models.NullBooleanField()
+class TestSub(models.Model):
+    sur5 = models.FloatField(primary_key=True)
+    tno = models.FloatField(blank=True, null=True)
+    scode = models.CharField(max_length=8, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'test_id'
+        db_table = 'test_sub'
+        unique_together = (('tno', 'scode'),)
 
 
-class TestNo(models.Model):
-    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)
-    scode = models.CharField(max_length=8)
+class TestTme(models.Model):
+    sur4 = models.FloatField(primary_key=True)
+    tno = models.FloatField(blank=True, null=True)
+    dte = models.DateField(blank=True, null=True)
+    slot = models.CharField(max_length=1, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'test_no'
+        db_table = 'test_tme'
+        unique_together = (('tno', 'dte', 'slot'),)
 
 
 class WriteTest(models.Model):
-    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')
-    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')
-    score = models.IntegerField(blank=True, null=True)
+    sur6 = models.FloatField(primary_key=True)
+    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)
+    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)
+    score = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'write_test'
-        unique_together = (('usn', 'tid'),)
+        unique_together = (('usn', 'score'),)
