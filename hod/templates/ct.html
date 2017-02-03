@@ -1,0 +1,15 @@
+<center><h4>HOD View : Login Credentials</h4>
+<table border = 1px cellpadding="3" style="font-family:Arial">
+<tr>
+<th>FID</th>
+<th>Section</th>
+</tr>
+{% for id in ClassTchr %}
+<tr>
+<td>{{id.fid.fid.userid}}</td>
+<td>{{id.section}}
+</td>
+</tr>
+{% endfor %}
+</table>
+</center>

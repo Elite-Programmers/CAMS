@@ -19,7 +19,7 @@ def lerror(request):
 def decrole(request):
     try:
         rec = FacultyList.objects.get(fid__exact=uid,designation__contains='HOD')
-        request.session['name']=r'HOD'+uid
+        request.session['name']='HOD'+uid
         return HttpResponseRedirect('/login/hod/')
     except FacultyList.DoesNotExist:
         try:
@@ -57,4 +57,4 @@ def login(request):
     # if a GET (or any other method) we'll create a blank form
     else:
         form = LoginForm()
-    return render(request, 'loginform.html', {'form': form})
+    return render(request, 'login.html', {'form': form})
