@@ -32,47 +32,7 @@
         <header>
             {% block header %}
             {% if not is_popup %}
-            <ul id="slide-out" class="side-nav fixed">
-                {% block sidenav_header %}
-                <li>
-                    <div class="userView">
-                        <img class="background" src="{% static 'material/imgs/sidenav.svg' %}">
-                        {% block userphoto %}
-                        {% if user.photo.url %}
-                        <a href="#"><img class="circle" src="{{ user.photo.url }}"></a>
-                        {% else %}
-                        <a href="#"><img class="circle" src="{% static 'material/imgs/user.png' %}"></a>
-                        {% endif %}
-                        {% endblock %}
-                        <a href="#"><span class="white-text name">{{ request.user.get_username|title }}</span></a>
-                        <a href="#"><span class="white-text email">{{ request.user.email }}</span></a>
-                    </div>
-                </li>
-                {% endblock %}
-                {% block sidenav_items %}
-                {% if site_url %}
-                    {% block back_link %}<li class="no-padding"><a class="collapsible-header" href="{{ site_url }}"><i class="material-icons">arrow_back</i>{% trans 'View site' %}</a></li>{% endblock %}
-                {% endif %}
-                {% get_app_list request as app_list %}
-                {% for app in app_list %}
-                <li {% if app.active %}class="active"{% endif %}>
-                    <ul class="collapsible collapsible-accordion">
-                        <li>
-                            <a class="collapsible-header{% if app.active %} active{% endif %}">{{ app.app_icon }} {{ app.name|truncatechars:23 }}</a>
-                            <div class="collapsible-body" {% if app.active %}style="display:block"{% endif %}>
-                                <ul>
-                                    {% for model in app.models %}
-                                    <li class="{% if model.active %}active{% endif %}">
-                                        <a href="{{ model.admin_url }}">{{ model.name }}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                    {% endfor %}
-                {% endblock sidenav_items %}
-            </ul>
+
             {% endif %}
             {% endblock header %}
         </header>
@@ -80,8 +40,7 @@
             {% block main %}
                 {% block topbar %}
                 <nav class="topbar">
-                    <div class="nav-wrapper">
-                        {% if not is_popup %}<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>{% endif %}
+
                         <div class="brand-logo">
                             {% block page_title %}
                             <a href="/" class="page-title">{% block brand-logo %}{% trans 'CAMS' %}{% endblock %}</a>
@@ -143,35 +102,3 @@
         {% endblock messages %}
     </body>
 </html>
-<!--
-    <body>
-        <ul id="user-menu" class="dropdown-content">
-        </ul>
-        {# endif #}
-
-        {# if not is_popup #}
-        <header>
-            <nav id="header" class="nav-top">
-                <div class="nav-wrapper">
-                    <a href="/" class="page-title hide-on-med-and-down">{# block brand-logo #}{# trans 'Administration' #}{# endblock #}</a>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse full"><i class="material-icons">menu</i></a>
-
-                    <ul class="right">
-                        {# if user.is_authenticated #}
-                        <li><a class="dropdown-button constrain_width" href="#!" data-activates="user-menu">{{ user.get_full_name }}<i class="material-icons right">arrow_drop_down</i></a></li>
-                        {# endif #}
-                    </ul>
-                </div>
-
-                <ul id="nav-mobile" class="side-nav fixed module-menu">
-                    <li class="logo valign-wrapper">
-                        <a href="{# url 'admin:index' #}" class="no-navigation">
-                            {# block branding #}{# endblock #}
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-        </header>
-        {# endif #}
--->
