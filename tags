@@ -4,190 +4,471 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	clsteacher/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	faculty/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	hod/migrations/0001_initial.py	1;"	kind:file	line:1
 0001_initial.py	lgin/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	student/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170202_0927.py	clsteacher/migrations/0002_auto_20170202_0927.py	1;"	kind:file	line:1
+0002_auto_20170202_0927.py	faculty/migrations/0002_auto_20170202_0927.py	1;"	kind:file	line:1
+0002_auto_20170202_0927.py	hod/migrations/0002_auto_20170202_0927.py	1;"	kind:file	line:1
+0002_auto_20170202_0927.py	lgin/migrations/0002_auto_20170202_0927.py	1;"	kind:file	line:1
+0002_auto_20170202_0927.py	student/migrations/0002_auto_20170202_0927.py	1;"	kind:file	line:1
+0003_deptsubenr.py	clsteacher/migrations/0003_deptsubenr.py	1;"	kind:file	line:1
+0003_deptsubenr.py	faculty/migrations/0003_deptsubenr.py	1;"	kind:file	line:1
+0003_deptsubenr.py	hod/migrations/0003_deptsubenr.py	1;"	kind:file	line:1
+0003_deptsubenr.py	lgin/migrations/0003_deptsubenr.py	1;"	kind:file	line:1
+0003_deptsubenr.py	student/migrations/0003_deptsubenr.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	cams/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	cams/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:93
-AuthGroup	models.py	/^class AuthGroup(models.Model):$/;"	kind:class	line:13
-AuthGroupPermissions	models.py	/^class AuthGroupPermissions(models.Model):$/;"	kind:class	line:22
-AuthPermission	models.py	/^class AuthPermission(models.Model):$/;"	kind:class	line:33
-AuthUser	models.py	/^class AuthUser(models.Model):$/;"	kind:class	line:45
-AuthUserGroups	models.py	/^class AuthUserGroups(models.Model):$/;"	kind:class	line:63
-AuthUserUserPermissions	models.py	/^class AuthUserUserPermissions(models.Model):$/;"	kind:class	line:74
+AUTH_PASSWORD_VALIDATORS	cams/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:97
+Att	clsteacher/models.py	/^class Att(models.Model):$/;"	kind:class	line:13
+Att	faculty/models.py	/^class Att(models.Model):$/;"	kind:class	line:13
+Att	hod/models.py	/^class Att(models.Model):$/;"	kind:class	line:13
+Att	lgin/models.py	/^class Att(models.Model):$/;"	kind:class	line:13
+Att	models.py	/^class Att(models.Model):$/;"	kind:class	line:13
+Att	student/models.py	/^class Att(models.Model):$/;"	kind:class	line:13
 BASE_DIR	cams/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-CamsLogin	lgin/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:13
-CamsLogin	models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:85
-ClassTchr	lgin/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:22
-ClassTchr	models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:94
-DATABASES	cams/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+CamsLogin	clsteacher/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+CamsLogin	faculty/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+CamsLogin	hod/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+CamsLogin	lgin/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+CamsLogin	models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+CamsLogin	student/models.py	/^class CamsLogin(models.Model):$/;"	kind:class	line:26
+ClassTchr	clsteacher/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClassTchr	faculty/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClassTchr	hod/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClassTchr	lgin/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClassTchr	models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClassTchr	student/models.py	/^class ClassTchr(models.Model):$/;"	kind:class	line:35
+ClsteacherConfig	clsteacher/apps.py	/^class ClsteacherConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	cams/settings.py	/^DATABASES = {$/;"	kind:variable	line:84
 DEBUG	cams/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
-DjangoAdminLog	models.py	/^class DjangoAdminLog(models.Model):$/;"	kind:class	line:106
-DjangoContentType	models.py	/^class DjangoContentType(models.Model):$/;"	kind:class	line:121
-DjangoMigrations	models.py	/^class DjangoMigrations(models.Model):$/;"	kind:class	line:132
-DjangoSession	models.py	/^class DjangoSession(models.Model):$/;"	kind:class	line:143
-FacultyEnr	lgin/models.py	/^class FacultyEnr(models.Model):$/;"	kind:class	line:34
-FacultyEnr	models.py	/^class FacultyEnr(models.Model):$/;"	kind:class	line:153
-FacultyList	lgin/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:48
-FacultyList	models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:167
-FacultyResponsibility	lgin/models.py	/^class FacultyResponsibility(models.Model):$/;"	kind:class	line:59
-FacultyResponsibility	models.py	/^class FacultyResponsibility(models.Model):$/;"	kind:class	line:178
-FrontendModule	models.py	/^class FrontendModule(models.Model):$/;"	kind:class	line:188
+DeptSubEnr	clsteacher/models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+DeptSubEnr	faculty/models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+DeptSubEnr	hod/models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+DeptSubEnr	lgin/models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+DeptSubEnr	models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+DeptSubEnr	student/models.py	/^class DeptSubEnr(models.Model):$/;"	kind:class	line:47
+FacEnr	clsteacher/models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacEnr	faculty/models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacEnr	hod/models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacEnr	lgin/models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacEnr	models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacEnr	student/models.py	/^class FacEnr(models.Model):$/;"	kind:class	line:58
+FacultyConfig	faculty/apps.py	/^class FacultyConfig(AppConfig):$/;"	kind:class	line:4
+FacultyList	clsteacher/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+FacultyList	faculty/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+FacultyList	hod/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+FacultyList	lgin/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+FacultyList	models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+FacultyList	student/models.py	/^class FacultyList(models.Model):$/;"	kind:class	line:73
+HodConfig	hod/apps.py	/^class HodConfig(AppConfig):$/;"	kind:class	line:4
 INSTALLED_APPS	cams/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	cams/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:112
+LANGUAGE_CODE	cams/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:116
 LginConfig	lgin/apps.py	/^class LginConfig(AppConfig):$/;"	kind:class	line:4
-MIDDLEWARE	cams/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:46
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:110
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:121
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:135
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:144
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:154
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:17
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:28
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:43
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:54
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:63
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:74
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:84
-Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:98
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:100
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:116
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:126
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:138
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:148
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:162
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:17
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:173
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:182
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:193
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:203
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:213
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:227
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:239
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:250
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:264
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:27
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:273
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:283
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:39
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:58
+MIDDLEWARE	cams/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:50
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	clsteacher/models.py	/^    class Meta:$/;"	kind:class	line:95
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	faculty/models.py	/^    class Meta:$/;"	kind:class	line:95
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	hod/models.py	/^    class Meta:$/;"	kind:class	line:95
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	lgin/models.py	/^    class Meta:$/;"	kind:class	line:95
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:53
 Meta	models.py	/^    class Meta:$/;"	kind:class	line:68
 Meta	models.py	/^    class Meta:$/;"	kind:class	line:79
-Meta	models.py	/^    class Meta:$/;"	kind:class	line:89
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:95
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:109
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:119
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:130
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:141
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:30
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:79
+Meta	student/models.py	/^    class Meta:$/;"	kind:class	line:95
+Migration	clsteacher/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	clsteacher/migrations/0002_auto_20170202_0927.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	clsteacher/migrations/0003_deptsubenr.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	faculty/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	faculty/migrations/0002_auto_20170202_0927.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	faculty/migrations/0003_deptsubenr.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	hod/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	hod/migrations/0002_auto_20170202_0927.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	hod/migrations/0003_deptsubenr.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 Migration	lgin/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	lgin/migrations/0002_auto_20170202_0927.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	lgin/migrations/0003_deptsubenr.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	student/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	student/migrations/0002_auto_20170202_0927.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	student/migrations/0003_deptsubenr.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 NameForm	lgin/forms.py	/^class NameForm(forms.Form):$/;"	kind:class	line:4
-ROOT_URLCONF	cams/settings.py	/^ROOT_URLCONF = 'cams.urls'$/;"	kind:variable	line:56
-STATIC_URL	cams/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:126
-StudentAtt	lgin/models.py	/^class StudentAtt(models.Model):$/;"	kind:class	line:69
-StudentAtt	models.py	/^class StudentAtt(models.Model):$/;"	kind:class	line:198
-StudentClassenr	lgin/models.py	/^class StudentClassenr(models.Model):$/;"	kind:class	line:80
-StudentClassenr	models.py	/^class StudentClassenr(models.Model):$/;"	kind:class	line:209
-StudentList	lgin/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:90
-StudentList	models.py	/^class StudentList(models.Model):$/;"	kind:class	line:219
-StudentSemenr	lgin/models.py	/^class StudentSemenr(models.Model):$/;"	kind:class	line:103
-StudentSemenr	models.py	/^class StudentSemenr(models.Model):$/;"	kind:class	line:232
-SubjectList	lgin/models.py	/^class SubjectList(models.Model):$/;"	kind:class	line:116
-SubjectList	models.py	/^class SubjectList(models.Model):$/;"	kind:class	line:245
-TEMPLATES	cams/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
-TIME_ZONE	cams/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:114
-TestId	lgin/models.py	/^class TestId(models.Model):$/;"	kind:class	line:127
-TestId	models.py	/^class TestId(models.Model):$/;"	kind:class	line:256
-TestNo	lgin/models.py	/^class TestNo(models.Model):$/;"	kind:class	line:140
-TestNo	models.py	/^class TestNo(models.Model):$/;"	kind:class	line:269
-USE_I18N	cams/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
-USE_L10N	cams/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
-USE_TZ	cams/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
-WSGI_APPLICATION	cams/settings.py	/^WSGI_APPLICATION = 'cams.wsgi.application'$/;"	kind:variable	line:74
-WriteTest	lgin/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:149
-WriteTest	models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:278
+ROOT_URLCONF	cams/settings.py	/^ROOT_URLCONF = 'cams.urls'$/;"	kind:variable	line:60
+STATIC_URL	cams/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:130
+StudentConfig	student/apps.py	/^class StudentConfig(AppConfig):$/;"	kind:class	line:4
+StudentList	clsteacher/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentList	faculty/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentList	hod/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentList	lgin/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentList	models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentList	student/models.py	/^class StudentList(models.Model):$/;"	kind:class	line:84
+StudentSemEnr	clsteacher/models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+StudentSemEnr	faculty/models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+StudentSemEnr	hod/models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+StudentSemEnr	lgin/models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+StudentSemEnr	models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+StudentSemEnr	student/models.py	/^class StudentSemEnr(models.Model):$/;"	kind:class	line:100
+TEMPLATES	cams/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:62
+TIME_ZONE	cams/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:118
+TestSub	clsteacher/models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestSub	faculty/models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestSub	hod/models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestSub	lgin/models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestSub	models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestSub	student/models.py	/^class TestSub(models.Model):$/;"	kind:class	line:114
+TestTme	clsteacher/models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+TestTme	faculty/models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+TestTme	hod/models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+TestTme	lgin/models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+TestTme	models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+TestTme	student/models.py	/^class TestTme(models.Model):$/;"	kind:class	line:124
+USE_I18N	cams/settings.py	/^USE_I18N = True$/;"	kind:variable	line:120
+USE_L10N	cams/settings.py	/^USE_L10N = True$/;"	kind:variable	line:122
+USE_TZ	cams/settings.py	/^USE_TZ = True$/;"	kind:variable	line:124
+WSGI_APPLICATION	cams/settings.py	/^WSGI_APPLICATION = 'cams.wsgi.application'$/;"	kind:variable	line:78
+WriteTest	clsteacher/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
+WriteTest	faculty/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
+WriteTest	hod/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
+WriteTest	lgin/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
+WriteTest	models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
+WriteTest	student/models.py	/^class WriteTest(models.Model):$/;"	kind:class	line:135
 __init__.py	cams/__init__.py	1;"	kind:file	line:1
+__init__.py	clsteacher/__init__.py	1;"	kind:file	line:1
+__init__.py	clsteacher/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	faculty/__init__.py	1;"	kind:file	line:1
+__init__.py	faculty/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	hod/__init__.py	1;"	kind:file	line:1
+__init__.py	hod/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	lgin/__init__.py	1;"	kind:file	line:1
 __init__.py	lgin/migrations/__init__.py	1;"	kind:file	line:1
-action_flag	models.py	/^    action_flag = models.IntegerField()$/;"	kind:variable	line:111
-action_time	models.py	/^    action_time = models.DateTimeField()$/;"	kind:variable	line:108
-address	lgin/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:94
-address	models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:223
+__init__.py	student/__init__.py	1;"	kind:file	line:1
+__init__.py	student/migrations/__init__.py	1;"	kind:file	line:1
+address	clsteacher/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+address	faculty/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+address	hod/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+address	lgin/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+address	models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+address	student/models.py	/^    address = models.CharField(max_length=300, blank=True, null=True)$/;"	kind:variable	line:90
+admin.py	clsteacher/admin.py	1;"	kind:file	line:1
+admin.py	faculty/admin.py	1;"	kind:file	line:1
+admin.py	hod/admin.py	1;"	kind:file	line:1
 admin.py	lgin/admin.py	1;"	kind:file	line:1
-admn	lgin/views.py	/^def admn(request):$/;"	kind:function	line:12
-app	models.py	/^    app = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:134
-app_label	models.py	/^    app_label = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:123
+admin.py	student/admin.py	1;"	kind:file	line:1
+admn	lgin/views.py	/^def admn(request):$/;"	kind:function	line:10
 application	cams/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
-applied	models.py	/^    applied = models.DateTimeField()$/;"	kind:variable	line:136
+apps.py	clsteacher/apps.py	1;"	kind:file	line:1
+apps.py	faculty/apps.py	1;"	kind:file	line:1
+apps.py	hod/apps.py	1;"	kind:file	line:1
 apps.py	lgin/apps.py	1;"	kind:file	line:1
-branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:105
-branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:119
-branch	lgin/models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:131
-branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:52
-branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:234
-branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:248
-branch	models.py	/^    branch = models.CharField(max_length=2)$/;"	kind:variable	line:260
-branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:171
-change_message	models.py	/^    change_message = models.TextField(blank=True, null=True)$/;"	kind:variable	line:112
-codename	models.py	/^    codename = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:37
-content_type	models.py	/^    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)$/;"	kind:variable	line:36
-content_type	models.py	/^    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)$/;"	kind:variable	line:113
-ctea	lgin/views.py	/^def ctea(request):$/;"	kind:function	line:36
-date_joined	models.py	/^    date_joined = models.DateTimeField()$/;"	kind:variable	line:56
-day	lgin/models.py	/^    day = models.CharField(max_length=3)$/;"	kind:variable	line:38
-day	models.py	/^    day = models.CharField(max_length=3)$/;"	kind:variable	line:157
-db_table	lgin/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:19
-db_table	lgin/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:30
-db_table	lgin/models.py	/^        db_table = 'faculty_enr'$/;"	kind:variable	line:45
-db_table	lgin/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:56
-db_table	lgin/models.py	/^        db_table = 'faculty_responsibility'$/;"	kind:variable	line:65
-db_table	lgin/models.py	/^        db_table = 'student_att'$/;"	kind:variable	line:76
-db_table	lgin/models.py	/^        db_table = 'student_classenr'$/;"	kind:variable	line:86
-db_table	lgin/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:100
-db_table	lgin/models.py	/^        db_table = 'student_semenr'$/;"	kind:variable	line:112
-db_table	lgin/models.py	/^        db_table = 'subject_list'$/;"	kind:variable	line:123
-db_table	lgin/models.py	/^        db_table = 'test_id'$/;"	kind:variable	line:137
-db_table	lgin/models.py	/^        db_table = 'test_no'$/;"	kind:variable	line:146
-db_table	lgin/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:156
-db_table	models.py	/^        db_table = 'auth_group'$/;"	kind:variable	line:19
-db_table	models.py	/^        db_table = 'auth_group_permissions'$/;"	kind:variable	line:29
-db_table	models.py	/^        db_table = 'auth_permission'$/;"	kind:variable	line:41
-db_table	models.py	/^        db_table = 'auth_user'$/;"	kind:variable	line:60
-db_table	models.py	/^        db_table = 'auth_user_groups'$/;"	kind:variable	line:70
-db_table	models.py	/^        db_table = 'auth_user_user_permissions'$/;"	kind:variable	line:81
-db_table	models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:91
-db_table	models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:102
-db_table	models.py	/^        db_table = 'django_admin_log'$/;"	kind:variable	line:118
-db_table	models.py	/^        db_table = 'django_content_type'$/;"	kind:variable	line:128
-db_table	models.py	/^        db_table = 'django_migrations'$/;"	kind:variable	line:140
-db_table	models.py	/^        db_table = 'django_session'$/;"	kind:variable	line:150
-db_table	models.py	/^        db_table = 'faculty_enr'$/;"	kind:variable	line:164
-db_table	models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:175
-db_table	models.py	/^        db_table = 'faculty_responsibility'$/;"	kind:variable	line:184
-db_table	models.py	/^        db_table = 'frontend_module'$/;"	kind:variable	line:195
-db_table	models.py	/^        db_table = 'student_att'$/;"	kind:variable	line:205
-db_table	models.py	/^        db_table = 'student_classenr'$/;"	kind:variable	line:215
-db_table	models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:229
-db_table	models.py	/^        db_table = 'student_semenr'$/;"	kind:variable	line:241
-db_table	models.py	/^        db_table = 'subject_list'$/;"	kind:variable	line:252
-db_table	models.py	/^        db_table = 'test_id'$/;"	kind:variable	line:266
-db_table	models.py	/^        db_table = 'test_no'$/;"	kind:variable	line:275
-db_table	models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:285
-decrole	lgin/views.py	/^def decrole(request):$/;"	kind:function	line:52
+apps.py	student/apps.py	1;"	kind:file	line:1
+batch	clsteacher/models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+batch	faculty/models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+batch	hod/models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+batch	lgin/models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+batch	models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+batch	student/models.py	/^    batch = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:105
+branch	clsteacher/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	clsteacher/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	clsteacher/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	clsteacher/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	clsteacher/models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+branch	faculty/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	faculty/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	faculty/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	faculty/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	faculty/models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+branch	hod/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	hod/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	hod/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	hod/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	hod/models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	lgin/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	lgin/models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+branch	student/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:103
+branch	student/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:51
+branch	student/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:64
+branch	student/models.py	/^    branch = models.CharField(max_length=2, blank=True, null=True)$/;"	kind:variable	line:77
+branch	student/models.py	/^    branch = models.CharField(max_length=4, blank=True, null=True)$/;"	kind:variable	line:88
+ctea	clsteacher/views.py	/^def ctea(request):$/;"	kind:function	line:6
+day	clsteacher/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	clsteacher/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+day	faculty/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	faculty/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+day	hod/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	hod/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+day	lgin/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	lgin/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+day	models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+day	student/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:19
+day	student/models.py	/^    day = models.CharField(max_length=3, blank=True, null=True)$/;"	kind:variable	line:62
+db_table	clsteacher/models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	clsteacher/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	clsteacher/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	clsteacher/models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	clsteacher/models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	clsteacher/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	clsteacher/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	clsteacher/models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	clsteacher/models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	clsteacher/models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	clsteacher/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+db_table	faculty/models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	faculty/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	faculty/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	faculty/models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	faculty/models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	faculty/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	faculty/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	faculty/models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	faculty/models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	faculty/models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	faculty/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+db_table	hod/models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	hod/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	hod/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	hod/models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	hod/models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	hod/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	hod/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	hod/models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	hod/models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	hod/models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	hod/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+db_table	lgin/models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	lgin/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	lgin/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	lgin/models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	lgin/models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	lgin/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	lgin/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	lgin/models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	lgin/models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	lgin/models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	lgin/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+db_table	models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+db_table	student/models.py	/^        db_table = 'att'$/;"	kind:variable	line:23
+db_table	student/models.py	/^        db_table = 'cams_login'$/;"	kind:variable	line:32
+db_table	student/models.py	/^        db_table = 'class_tchr'$/;"	kind:variable	line:44
+db_table	student/models.py	/^        db_table = 'dept_sub_enr'$/;"	kind:variable	line:55
+db_table	student/models.py	/^        db_table = 'fac_enr'$/;"	kind:variable	line:70
+db_table	student/models.py	/^        db_table = 'faculty_list'$/;"	kind:variable	line:81
+db_table	student/models.py	/^        db_table = 'student_list'$/;"	kind:variable	line:97
+db_table	student/models.py	/^        db_table = 'student_sem_enr'$/;"	kind:variable	line:111
+db_table	student/models.py	/^        db_table = 'test_sub'$/;"	kind:variable	line:121
+db_table	student/models.py	/^        db_table = 'test_tme'$/;"	kind:variable	line:132
+db_table	student/models.py	/^        db_table = 'write_test'$/;"	kind:variable	line:143
+decrole	lgin/views.py	/^def decrole(request):$/;"	kind:function	line:19
+dependencies	clsteacher/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	clsteacher/migrations/0002_auto_20170202_0927.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	clsteacher/migrations/0003_deptsubenr.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	faculty/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	faculty/migrations/0002_auto_20170202_0927.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	faculty/migrations/0003_deptsubenr.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	hod/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	hod/migrations/0002_auto_20170202_0927.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	hod/migrations/0003_deptsubenr.py	/^    dependencies = [$/;"	kind:variable	line:10
 dependencies	lgin/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
-designation	lgin/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:51
-designation	models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:170
-dte	lgin/models.py	/^    dte = models.DateField()$/;"	kind:variable	line:72
-dte	models.py	/^    dte = models.DateField()$/;"	kind:variable	line:201
-email	models.py	/^    email = models.CharField(max_length=508, blank=True, null=True)$/;"	kind:variable	line:53
-eno	lgin/models.py	/^    eno = models.FloatField(primary_key=True)$/;"	kind:variable	line:35
-eno	lgin/models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:71
-eno	lgin/models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:82
-eno	models.py	/^    eno = models.FloatField(primary_key=True)$/;"	kind:variable	line:154
-eno	models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:200
-eno	models.py	/^    eno = models.ForeignKey(FacultyEnr, models.DO_NOTHING, db_column='eno')$/;"	kind:variable	line:211
-expire_date	models.py	/^    expire_date = models.DateTimeField()$/;"	kind:variable	line:146
-facu	lgin/views.py	/^def facu(request):$/;"	kind:function	line:29
-fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:36
-fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid',primary_key=True)$/;"	kind:variable	line:23
-fid	lgin/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:49
-fid	lgin/models.py	/^    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:60
-fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:155
-fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:95
-fid	models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:168
-fid	models.py	/^    fid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='fid')$/;"	kind:variable	line:179
+dependencies	lgin/migrations/0002_auto_20170202_0927.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	lgin/migrations/0003_deptsubenr.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	student/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	student/migrations/0002_auto_20170202_0927.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	student/migrations/0003_deptsubenr.py	/^    dependencies = [$/;"	kind:variable	line:10
+designation	clsteacher/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+designation	faculty/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+designation	hod/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+designation	lgin/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+designation	models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+designation	student/models.py	/^    designation = models.CharField(max_length=30)$/;"	kind:variable	line:76
+dte	clsteacher/models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+dte	faculty/models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+dte	hod/models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+dte	lgin/models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+dte	models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+dte	student/models.py	/^    dte = models.DateField(blank=True, null=True)$/;"	kind:variable	line:127
+facu	faculty/views.py	/^def facu(request):$/;"	kind:function	line:6
+fid	clsteacher/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	clsteacher/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	clsteacher/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fid	faculty/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	faculty/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	faculty/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fid	hod/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	hod/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	hod/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	lgin/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	lgin/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fid	student/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:37
+fid	student/models.py	/^    fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)$/;"	kind:variable	line:60
+fid	student/models.py	/^    fid = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='fid', primary_key=True)$/;"	kind:variable	line:74
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:143
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:156
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:168
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:183
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:194
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:206
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:217
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:227
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:240
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:253
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:268
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:279
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:292
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:307
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:52
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
+fields	clsteacher/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
+fields	clsteacher/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:17
+fields	clsteacher/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:32
+fields	clsteacher/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:50
+fields	clsteacher/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:63
+fields	clsteacher/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:75
+fields	clsteacher/migrations/0003_deptsubenr.py	/^            fields=[$/;"	kind:variable	line:17
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:143
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:156
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:168
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:183
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:194
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:206
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:217
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:227
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:240
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:253
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:268
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:279
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:292
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:307
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:52
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
+fields	faculty/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
+fields	faculty/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:17
+fields	faculty/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:32
+fields	faculty/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:50
+fields	faculty/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:63
+fields	faculty/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:75
+fields	faculty/migrations/0003_deptsubenr.py	/^            fields=[$/;"	kind:variable	line:17
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:143
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:156
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:168
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:183
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:194
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:206
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:217
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:227
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:240
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:253
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:268
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:279
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:292
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:307
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:52
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
+fields	hod/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
+fields	hod/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:17
+fields	hod/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:32
+fields	hod/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:50
+fields	hod/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:63
+fields	hod/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:75
+fields	hod/migrations/0003_deptsubenr.py	/^            fields=[$/;"	kind:variable	line:17
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
@@ -212,76 +493,224 @@ fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
 fields	lgin/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
-first_name	models.py	/^    first_name = models.CharField(max_length=60, blank=True, null=True)$/;"	kind:variable	line:51
+fields	lgin/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:17
+fields	lgin/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:32
+fields	lgin/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:50
+fields	lgin/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:63
+fields	lgin/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:75
+fields	lgin/migrations/0003_deptsubenr.py	/^            fields=[$/;"	kind:variable	line:17
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:103
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:116
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:131
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:143
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:156
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:168
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:183
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:194
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:206
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:217
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:227
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:240
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:253
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:268
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:279
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:292
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:307
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:52
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:72
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:82
+fields	student/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:92
+fields	student/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:17
+fields	student/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:32
+fields	student/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:50
+fields	student/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:63
+fields	student/migrations/0002_auto_20170202_0927.py	/^            fields=[$/;"	kind:variable	line:75
+fields	student/migrations/0003_deptsubenr.py	/^            fields=[$/;"	kind:variable	line:17
 forms.py	lgin/forms.py	1;"	kind:file	line:1
-group	models.py	/^    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)$/;"	kind:variable	line:24
-group	models.py	/^    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)$/;"	kind:variable	line:66
-hod	lgin/views.py	/^def hod(request):$/;"	kind:function	line:22
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:107
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:122
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:133
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:14
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:189
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:23
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:34
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:46
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:64
-id	models.py	/^    id = models.IntegerField(primary_key=True)  # AutoField?$/;"	kind:variable	line:75
+hod	hod/views.py	/^def hod(request):$/;"	kind:function	line:7
+initial	clsteacher/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	faculty/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	hod/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
 initial	lgin/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
-installed	models.py	/^    installed = models.BooleanField()$/;"	kind:variable	line:191
-is_active	models.py	/^    is_active = models.BooleanField()$/;"	kind:variable	line:55
-is_staff	models.py	/^    is_staff = models.BooleanField()$/;"	kind:variable	line:54
-is_superuser	models.py	/^    is_superuser = models.BooleanField()$/;"	kind:variable	line:49
-joining	lgin/models.py	/^    joining = models.DateField()$/;"	kind:variable	line:93
-joining	models.py	/^    joining = models.DateField()$/;"	kind:variable	line:222
-label	models.py	/^    label = models.CharField(max_length=100, blank=True, null=True)$/;"	kind:variable	line:190
-last_login	models.py	/^    last_login = models.DateTimeField(blank=True, null=True)$/;"	kind:variable	line:48
-last_name	models.py	/^    last_name = models.CharField(max_length=60, blank=True, null=True)$/;"	kind:variable	line:52
-lerror	lgin/views.py	/^def lerror(request):$/;"	kind:function	line:18
-login	lgin/views.py	/^def login(request):$/;"	kind:function	line:74
+initial	student/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+lerror	lgin/views.py	/^def lerror(request):$/;"	kind:function	line:16
+login	lgin/views.py	/^def login(request):$/;"	kind:function	line:38
 manage.py	manage.py	1;"	kind:file	line:1
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:111
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:122
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:136
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:145
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:155
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:18
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:29
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:44
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:55
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:64
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:75
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:85
-managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:99
-managed	models.py	/^        managed = False$/;"	kind:variable	line:101
-managed	models.py	/^        managed = False$/;"	kind:variable	line:117
-managed	models.py	/^        managed = False$/;"	kind:variable	line:127
-managed	models.py	/^        managed = False$/;"	kind:variable	line:139
-managed	models.py	/^        managed = False$/;"	kind:variable	line:149
-managed	models.py	/^        managed = False$/;"	kind:variable	line:163
-managed	models.py	/^        managed = False$/;"	kind:variable	line:174
-managed	models.py	/^        managed = False$/;"	kind:variable	line:18
-managed	models.py	/^        managed = False$/;"	kind:variable	line:183
-managed	models.py	/^        managed = False$/;"	kind:variable	line:194
-managed	models.py	/^        managed = False$/;"	kind:variable	line:204
-managed	models.py	/^        managed = False$/;"	kind:variable	line:214
-managed	models.py	/^        managed = False$/;"	kind:variable	line:228
-managed	models.py	/^        managed = False$/;"	kind:variable	line:240
-managed	models.py	/^        managed = False$/;"	kind:variable	line:251
-managed	models.py	/^        managed = False$/;"	kind:variable	line:265
-managed	models.py	/^        managed = False$/;"	kind:variable	line:274
-managed	models.py	/^        managed = False$/;"	kind:variable	line:28
-managed	models.py	/^        managed = False$/;"	kind:variable	line:284
-managed	models.py	/^        managed = False$/;"	kind:variable	line:40
-managed	models.py	/^        managed = False$/;"	kind:variable	line:59
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:54
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	clsteacher/models.py	/^        managed = False$/;"	kind:variable	line:96
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:54
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	faculty/models.py	/^        managed = False$/;"	kind:variable	line:96
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:54
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	hod/models.py	/^        managed = False$/;"	kind:variable	line:96
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:54
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	lgin/models.py	/^        managed = False$/;"	kind:variable	line:96
+managed	models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	models.py	/^        managed = False$/;"	kind:variable	line:54
 managed	models.py	/^        managed = False$/;"	kind:variable	line:69
 managed	models.py	/^        managed = False$/;"	kind:variable	line:80
-managed	models.py	/^        managed = False$/;"	kind:variable	line:90
-mentorid	lgin/models.py	/^    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)$/;"	kind:variable	line:108
-mentorid	models.py	/^    mentorid = models.ForeignKey(FacultyList, models.DO_NOTHING, db_column='mentorid', blank=True, null=True)$/;"	kind:variable	line:237
-model	models.py	/^    model = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:124
+managed	models.py	/^        managed = False$/;"	kind:variable	line:96
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:110
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:120
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:131
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:142
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:22
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:31
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:43
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:54
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:69
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:80
+managed	student/models.py	/^        managed = False$/;"	kind:variable	line:96
+models.py	cams/models.py	1;"	kind:file	line:1
+models.py	clsteacher/models.py	1;"	kind:file	line:1
+models.py	faculty/models.py	1;"	kind:file	line:1
+models.py	hod/models.py	1;"	kind:file	line:1
 models.py	lgin/models.py	1;"	kind:file	line:1
 models.py	models.py	1;"	kind:file	line:1
+models.py	student/models.py	1;"	kind:file	line:1
+name	clsteacher/apps.py	/^    name = 'clsteacher'$/;"	kind:variable	line:5
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthPermission',$/;"	kind:variable	line:39
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthUser',$/;"	kind:variable	line:51
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthUserGroups',$/;"	kind:variable	line:71
+name	clsteacher/migrations/0001_initial.py	/^            name='AuthUserUserPermissions',$/;"	kind:variable	line:81
+name	clsteacher/migrations/0001_initial.py	/^            name='CamsLogin',$/;"	kind:variable	line:91
+name	clsteacher/migrations/0001_initial.py	/^            name='ClassTchr',$/;"	kind:variable	line:102
+name	clsteacher/migrations/0001_initial.py	/^            name='DjangoAdminLog',$/;"	kind:variable	line:115
+name	clsteacher/migrations/0001_initial.py	/^            name='DjangoContentType',$/;"	kind:variable	line:130
+name	clsteacher/migrations/0001_initial.py	/^            name='DjangoMigrations',$/;"	kind:variable	line:142
+name	clsteacher/migrations/0001_initial.py	/^            name='DjangoSession',$/;"	kind:variable	line:155
+name	clsteacher/migrations/0001_initial.py	/^            name='FacultyEnr',$/;"	kind:variable	line:167
+name	clsteacher/migrations/0001_initial.py	/^            name='FacultyList',$/;"	kind:variable	line:278
+name	clsteacher/migrations/0001_initial.py	/^            name='FacultyResponsibility',$/;"	kind:variable	line:182
+name	clsteacher/migrations/0001_initial.py	/^            name='FrontendModule',$/;"	kind:variable	line:193
+name	clsteacher/migrations/0001_initial.py	/^            name='StudentAtt',$/;"	kind:variable	line:205
+name	clsteacher/migrations/0001_initial.py	/^            name='StudentClassenr',$/;"	kind:variable	line:216
+name	clsteacher/migrations/0001_initial.py	/^            name='StudentList',$/;"	kind:variable	line:291
+name	clsteacher/migrations/0001_initial.py	/^            name='StudentSemenr',$/;"	kind:variable	line:226
+name	clsteacher/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:variable	line:239
+name	clsteacher/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
+name	clsteacher/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
+name	clsteacher/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='Att',$/;"	kind:variable	line:16
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='FacEnr',$/;"	kind:variable	line:31
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='StudentSubEnr',$/;"	kind:variable	line:49
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='TestSub',$/;"	kind:variable	line:62
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='TestTme',$/;"	kind:variable	line:74
+name	clsteacher/migrations/0002_auto_20170202_0927.py	/^            name='studentsemenr',$/;"	kind:variable	line:87
+name	clsteacher/migrations/0003_deptsubenr.py	/^            name='DeptSubEnr',$/;"	kind:variable	line:16
+name	clsteacher/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
+name	faculty/apps.py	/^    name = 'faculty'$/;"	kind:variable	line:5
+name	faculty/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
+name	faculty/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
+name	faculty/migrations/0001_initial.py	/^            name='AuthPermission',$/;"	kind:variable	line:39
+name	faculty/migrations/0001_initial.py	/^            name='AuthUser',$/;"	kind:variable	line:51
+name	faculty/migrations/0001_initial.py	/^            name='AuthUserGroups',$/;"	kind:variable	line:71
+name	faculty/migrations/0001_initial.py	/^            name='AuthUserUserPermissions',$/;"	kind:variable	line:81
+name	faculty/migrations/0001_initial.py	/^            name='CamsLogin',$/;"	kind:variable	line:91
+name	faculty/migrations/0001_initial.py	/^            name='ClassTchr',$/;"	kind:variable	line:102
+name	faculty/migrations/0001_initial.py	/^            name='DjangoAdminLog',$/;"	kind:variable	line:115
+name	faculty/migrations/0001_initial.py	/^            name='DjangoContentType',$/;"	kind:variable	line:130
+name	faculty/migrations/0001_initial.py	/^            name='DjangoMigrations',$/;"	kind:variable	line:142
+name	faculty/migrations/0001_initial.py	/^            name='DjangoSession',$/;"	kind:variable	line:155
+name	faculty/migrations/0001_initial.py	/^            name='FacultyEnr',$/;"	kind:variable	line:167
+name	faculty/migrations/0001_initial.py	/^            name='FacultyList',$/;"	kind:variable	line:278
+name	faculty/migrations/0001_initial.py	/^            name='FacultyResponsibility',$/;"	kind:variable	line:182
+name	faculty/migrations/0001_initial.py	/^            name='FrontendModule',$/;"	kind:variable	line:193
+name	faculty/migrations/0001_initial.py	/^            name='StudentAtt',$/;"	kind:variable	line:205
+name	faculty/migrations/0001_initial.py	/^            name='StudentClassenr',$/;"	kind:variable	line:216
+name	faculty/migrations/0001_initial.py	/^            name='StudentList',$/;"	kind:variable	line:291
+name	faculty/migrations/0001_initial.py	/^            name='StudentSemenr',$/;"	kind:variable	line:226
+name	faculty/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:variable	line:239
+name	faculty/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
+name	faculty/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
+name	faculty/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='Att',$/;"	kind:variable	line:16
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='FacEnr',$/;"	kind:variable	line:31
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='StudentSubEnr',$/;"	kind:variable	line:49
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='TestSub',$/;"	kind:variable	line:62
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='TestTme',$/;"	kind:variable	line:74
+name	faculty/migrations/0002_auto_20170202_0927.py	/^            name='studentsemenr',$/;"	kind:variable	line:87
+name	faculty/migrations/0003_deptsubenr.py	/^            name='DeptSubEnr',$/;"	kind:variable	line:16
+name	faculty/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
+name	hod/apps.py	/^    name = 'hod'$/;"	kind:variable	line:5
+name	hod/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
+name	hod/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
+name	hod/migrations/0001_initial.py	/^            name='AuthPermission',$/;"	kind:variable	line:39
+name	hod/migrations/0001_initial.py	/^            name='AuthUser',$/;"	kind:variable	line:51
+name	hod/migrations/0001_initial.py	/^            name='AuthUserGroups',$/;"	kind:variable	line:71
+name	hod/migrations/0001_initial.py	/^            name='AuthUserUserPermissions',$/;"	kind:variable	line:81
+name	hod/migrations/0001_initial.py	/^            name='CamsLogin',$/;"	kind:variable	line:91
+name	hod/migrations/0001_initial.py	/^            name='ClassTchr',$/;"	kind:variable	line:102
+name	hod/migrations/0001_initial.py	/^            name='DjangoAdminLog',$/;"	kind:variable	line:115
+name	hod/migrations/0001_initial.py	/^            name='DjangoContentType',$/;"	kind:variable	line:130
+name	hod/migrations/0001_initial.py	/^            name='DjangoMigrations',$/;"	kind:variable	line:142
+name	hod/migrations/0001_initial.py	/^            name='DjangoSession',$/;"	kind:variable	line:155
+name	hod/migrations/0001_initial.py	/^            name='FacultyEnr',$/;"	kind:variable	line:167
+name	hod/migrations/0001_initial.py	/^            name='FacultyList',$/;"	kind:variable	line:278
+name	hod/migrations/0001_initial.py	/^            name='FacultyResponsibility',$/;"	kind:variable	line:182
+name	hod/migrations/0001_initial.py	/^            name='FrontendModule',$/;"	kind:variable	line:193
+name	hod/migrations/0001_initial.py	/^            name='StudentAtt',$/;"	kind:variable	line:205
+name	hod/migrations/0001_initial.py	/^            name='StudentClassenr',$/;"	kind:variable	line:216
+name	hod/migrations/0001_initial.py	/^            name='StudentList',$/;"	kind:variable	line:291
+name	hod/migrations/0001_initial.py	/^            name='StudentSemenr',$/;"	kind:variable	line:226
+name	hod/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:variable	line:239
+name	hod/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
+name	hod/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
+name	hod/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='Att',$/;"	kind:variable	line:16
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='FacEnr',$/;"	kind:variable	line:31
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='StudentSubEnr',$/;"	kind:variable	line:49
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='TestSub',$/;"	kind:variable	line:62
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='TestTme',$/;"	kind:variable	line:74
+name	hod/migrations/0002_auto_20170202_0927.py	/^            name='studentsemenr',$/;"	kind:variable	line:87
+name	hod/migrations/0003_deptsubenr.py	/^            name='DeptSubEnr',$/;"	kind:variable	line:16
+name	hod/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
 name	lgin/apps.py	/^    name = 'lgin'$/;"	kind:variable	line:5
 name	lgin/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
 name	lgin/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
@@ -307,16 +736,153 @@ name	lgin/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:
 name	lgin/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
 name	lgin/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
 name	lgin/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
-name	lgin/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:50
-name	lgin/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:92
-name	models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:169
-name	models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:221
-name	models.py	/^    name = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:135
-name	models.py	/^    name = models.CharField(max_length=510, blank=True, null=True)$/;"	kind:variable	line:35
-name	models.py	/^    name = models.CharField(unique=True, max_length=160, blank=True, null=True)$/;"	kind:variable	line:15
-object_id	models.py	/^    object_id = models.TextField(blank=True, null=True)$/;"	kind:variable	line:109
-object_repr	models.py	/^    object_repr = models.CharField(max_length=400, blank=True, null=True)$/;"	kind:variable	line:110
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='Att',$/;"	kind:variable	line:16
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='FacEnr',$/;"	kind:variable	line:31
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='StudentSubEnr',$/;"	kind:variable	line:49
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='TestSub',$/;"	kind:variable	line:62
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='TestTme',$/;"	kind:variable	line:74
+name	lgin/migrations/0002_auto_20170202_0927.py	/^            name='studentsemenr',$/;"	kind:variable	line:87
+name	lgin/migrations/0003_deptsubenr.py	/^            name='DeptSubEnr',$/;"	kind:variable	line:16
+name	lgin/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
+name	models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
+name	student/apps.py	/^    name = 'student'$/;"	kind:variable	line:5
+name	student/migrations/0001_initial.py	/^            name='AuthGroup',$/;"	kind:variable	line:18
+name	student/migrations/0001_initial.py	/^            name='AuthGroupPermissions',$/;"	kind:variable	line:29
+name	student/migrations/0001_initial.py	/^            name='AuthPermission',$/;"	kind:variable	line:39
+name	student/migrations/0001_initial.py	/^            name='AuthUser',$/;"	kind:variable	line:51
+name	student/migrations/0001_initial.py	/^            name='AuthUserGroups',$/;"	kind:variable	line:71
+name	student/migrations/0001_initial.py	/^            name='AuthUserUserPermissions',$/;"	kind:variable	line:81
+name	student/migrations/0001_initial.py	/^            name='CamsLogin',$/;"	kind:variable	line:91
+name	student/migrations/0001_initial.py	/^            name='ClassTchr',$/;"	kind:variable	line:102
+name	student/migrations/0001_initial.py	/^            name='DjangoAdminLog',$/;"	kind:variable	line:115
+name	student/migrations/0001_initial.py	/^            name='DjangoContentType',$/;"	kind:variable	line:130
+name	student/migrations/0001_initial.py	/^            name='DjangoMigrations',$/;"	kind:variable	line:142
+name	student/migrations/0001_initial.py	/^            name='DjangoSession',$/;"	kind:variable	line:155
+name	student/migrations/0001_initial.py	/^            name='FacultyEnr',$/;"	kind:variable	line:167
+name	student/migrations/0001_initial.py	/^            name='FacultyList',$/;"	kind:variable	line:278
+name	student/migrations/0001_initial.py	/^            name='FacultyResponsibility',$/;"	kind:variable	line:182
+name	student/migrations/0001_initial.py	/^            name='FrontendModule',$/;"	kind:variable	line:193
+name	student/migrations/0001_initial.py	/^            name='StudentAtt',$/;"	kind:variable	line:205
+name	student/migrations/0001_initial.py	/^            name='StudentClassenr',$/;"	kind:variable	line:216
+name	student/migrations/0001_initial.py	/^            name='StudentList',$/;"	kind:variable	line:291
+name	student/migrations/0001_initial.py	/^            name='StudentSemenr',$/;"	kind:variable	line:226
+name	student/migrations/0001_initial.py	/^            name='SubjectList',$/;"	kind:variable	line:239
+name	student/migrations/0001_initial.py	/^            name='TestId',$/;"	kind:variable	line:252
+name	student/migrations/0001_initial.py	/^            name='TestNo',$/;"	kind:variable	line:306
+name	student/migrations/0001_initial.py	/^            name='WriteTest',$/;"	kind:variable	line:267
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='Att',$/;"	kind:variable	line:16
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='FacEnr',$/;"	kind:variable	line:31
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='StudentSubEnr',$/;"	kind:variable	line:49
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='TestSub',$/;"	kind:variable	line:62
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='TestTme',$/;"	kind:variable	line:74
+name	student/migrations/0002_auto_20170202_0927.py	/^            name='studentsemenr',$/;"	kind:variable	line:87
+name	student/migrations/0003_deptsubenr.py	/^            name='DeptSubEnr',$/;"	kind:variable	line:16
+name	student/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:75
+operations	clsteacher/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	clsteacher/migrations/0002_auto_20170202_0927.py	/^    operations = [$/;"	kind:variable	line:14
+operations	clsteacher/migrations/0003_deptsubenr.py	/^    operations = [$/;"	kind:variable	line:14
+operations	faculty/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	faculty/migrations/0002_auto_20170202_0927.py	/^    operations = [$/;"	kind:variable	line:14
+operations	faculty/migrations/0003_deptsubenr.py	/^    operations = [$/;"	kind:variable	line:14
+operations	hod/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	hod/migrations/0002_auto_20170202_0927.py	/^    operations = [$/;"	kind:variable	line:14
+operations	hod/migrations/0003_deptsubenr.py	/^    operations = [$/;"	kind:variable	line:14
 operations	lgin/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	lgin/migrations/0002_auto_20170202_0927.py	/^    operations = [$/;"	kind:variable	line:14
+operations	lgin/migrations/0003_deptsubenr.py	/^    operations = [$/;"	kind:variable	line:14
+operations	student/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	student/migrations/0002_auto_20170202_0927.py	/^    operations = [$/;"	kind:variable	line:14
+operations	student/migrations/0003_deptsubenr.py	/^    operations = [$/;"	kind:variable	line:14
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:149
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:161
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:176
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:187
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:199
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:210
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:220
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:23
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:233
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:246
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:261
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:272
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:285
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:300
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:311
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:45
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:65
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
+options	clsteacher/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
+options	clsteacher/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:25
+options	clsteacher/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:43
+options	clsteacher/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:56
+options	clsteacher/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:68
+options	clsteacher/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:81
+options	clsteacher/migrations/0003_deptsubenr.py	/^            options={$/;"	kind:variable	line:23
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:149
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:161
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:176
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:187
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:199
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:210
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:220
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:23
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:233
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:246
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:261
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:272
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:285
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:300
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:311
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:45
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:65
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
+options	faculty/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
+options	faculty/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:25
+options	faculty/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:43
+options	faculty/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:56
+options	faculty/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:68
+options	faculty/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:81
+options	faculty/migrations/0003_deptsubenr.py	/^            options={$/;"	kind:variable	line:23
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:149
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:161
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:176
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:187
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:199
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:210
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:220
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:23
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:233
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:246
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:261
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:272
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:285
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:300
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:311
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:45
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:65
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
+options	hod/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
+options	hod/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:25
+options	hod/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:43
+options	hod/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:56
+options	hod/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:68
+options	hod/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:81
+options	hod/migrations/0003_deptsubenr.py	/^            options={$/;"	kind:variable	line:23
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
@@ -341,103 +907,318 @@ options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variabl
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
 options	lgin/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
-parent_phno	lgin/models.py	/^    parent_phno = models.CharField(max_length=15)$/;"	kind:variable	line:96
-parent_phno	models.py	/^    parent_phno = models.CharField(max_length=15)$/;"	kind:variable	line:225
-password	lgin/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:15
-password	models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:87
-password	models.py	/^    password = models.CharField(max_length=256, blank=True, null=True)$/;"	kind:variable	line:47
-permission	models.py	/^    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)$/;"	kind:variable	line:25
-permission	models.py	/^    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)$/;"	kind:variable	line:77
-phno	lgin/models.py	/^    phno = models.CharField(max_length=15)$/;"	kind:variable	line:95
-phno	models.py	/^    phno = models.CharField(max_length=15)$/;"	kind:variable	line:224
+options	lgin/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:25
+options	lgin/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:43
+options	lgin/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:56
+options	lgin/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:68
+options	lgin/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:81
+options	lgin/migrations/0003_deptsubenr.py	/^            options={$/;"	kind:variable	line:23
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:109
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:124
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:136
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:149
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:161
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:176
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:187
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:199
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:210
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:220
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:23
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:233
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:246
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:261
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:272
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:285
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:300
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:311
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:45
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:65
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:75
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:85
+options	student/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:96
+options	student/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:25
+options	student/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:43
+options	student/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:56
+options	student/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:68
+options	student/migrations/0002_auto_20170202_0927.py	/^            options={$/;"	kind:variable	line:81
+options	student/migrations/0003_deptsubenr.py	/^            options={$/;"	kind:variable	line:23
+parent_phno	clsteacher/models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+parent_phno	faculty/models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+parent_phno	hod/models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+parent_phno	lgin/models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+parent_phno	models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+parent_phno	student/models.py	/^    parent_phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:91
+password	clsteacher/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	clsteacher/models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+password	faculty/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	faculty/models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+password	hod/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	hod/models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+password	lgin/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	lgin/models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+password	models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+password	student/models.py	/^    password = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:28
+password	student/models.py	/^    password = models.CharField(max_length=20, blank=True, null=True)$/;"	kind:variable	line:93
+phno	clsteacher/models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
+phno	faculty/models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
+phno	hod/models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
+phno	lgin/models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
+phno	models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
+phno	student/models.py	/^    phno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:92
 pwd	lgin/forms.py	/^    pwd = forms.CharField(label=mark_safe('<br>Password:'), max_length=10,)/;"	kind:variable	line:6
-responsibility	lgin/models.py	/^    responsibility = models.CharField(max_length=10)$/;"	kind:variable	line:61
-responsibility	models.py	/^    responsibility = models.CharField(max_length=10)$/;"	kind:variable	line:180
-scode	lgin/models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:117
-scode	lgin/models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:142
-scode	models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:246
-scode	models.py	/^    scode = models.CharField(max_length=8)$/;"	kind:variable	line:271
-score	lgin/models.py	/^    score = models.IntegerField(blank=True, null=True)$/;"	kind:variable	line:152
-score	models.py	/^    score = models.IntegerField(blank=True, null=True)$/;"	kind:variable	line:281
-section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:107
-section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:24
-section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:39
-section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:158
-section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:236
-section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:96
-sem	lgin/models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:106
-sem	lgin/models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:41
-sem	lgin/models.py	/^    sem = models.BooleanField(primary_key=True)$/;"	kind:variable	line:25
-sem	lgin/models.py	/^    sem = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:132
-sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:160
-sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:235
-sem	models.py	/^    sem = models.BooleanField()$/;"	kind:variable	line:97
-sem	models.py	/^    sem = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:261
-session_data	models.py	/^    session_data = models.TextField(blank=True, null=True)$/;"	kind:variable	line:145
-session_key	models.py	/^    session_key = models.CharField(primary_key=True, max_length=80)$/;"	kind:variable	line:144
+satt	clsteacher/models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+satt	faculty/models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+satt	hod/models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+satt	lgin/models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+satt	models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+satt	student/models.py	/^    satt = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:14
+scfid	clsteacher/models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scfid	faculty/models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scfid	hod/models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scfid	lgin/models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scfid	models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scfid	student/models.py	/^    scfid = models.FloatField(primary_key=True)$/;"	kind:variable	line:36
+scode	clsteacher/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	clsteacher/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	clsteacher/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	clsteacher/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+scode	faculty/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	faculty/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	faculty/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	faculty/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+scode	hod/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	hod/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	hod/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	hod/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	lgin/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+scode	models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+scode	student/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:117
+scode	student/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:18
+scode	student/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:49
+scode	student/models.py	/^    scode = models.CharField(max_length=8, blank=True, null=True)$/;"	kind:variable	line:66
+score	clsteacher/models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+score	faculty/models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+score	hod/models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+score	lgin/models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+score	models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+score	student/models.py	/^    score = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:139
+section	clsteacher/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	clsteacher/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	clsteacher/models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+section	faculty/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	faculty/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	faculty/models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+section	hod/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	hod/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	hod/models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	lgin/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	lgin/models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+section	student/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:38
+section	student/models.py	/^    section = models.CharField(max_length=1)$/;"	kind:variable	line:63
+section	student/models.py	/^    section = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:106
+sem	clsteacher/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	clsteacher/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	clsteacher/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+sem	faculty/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	faculty/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	faculty/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+sem	hod/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	hod/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	hod/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+sem	lgin/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	lgin/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	lgin/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+sem	models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+sem	student/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:104
+sem	student/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:39
+sem	student/models.py	/^    sem = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:87
+senr	clsteacher/models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
+senr	faculty/models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
+senr	hod/models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
+senr	lgin/models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
+senr	models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
+senr	student/models.py	/^    senr = models.FloatField(primary_key=True)$/;"	kind:variable	line:101
 settings.py	cams/settings.py	1;"	kind:file	line:1
-slot	lgin/models.py	/^    slot = models.BooleanField()$/;"	kind:variable	line:37
-slot	lgin/models.py	/^    slot = models.CharField(max_length=1)$/;"	kind:variable	line:130
-slot	models.py	/^    slot = models.BooleanField()$/;"	kind:variable	line:156
-slot	models.py	/^    slot = models.CharField(max_length=1)$/;"	kind:variable	line:259
-sname	lgin/models.py	/^    sname = models.CharField(max_length=100)$/;"	kind:variable	line:118
-sname	models.py	/^    sname = models.CharField(max_length=100)$/;"	kind:variable	line:247
-student	lgin/views.py	/^def student(request):$/;"	kind:function	line:43
+sfid	clsteacher/models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+sfid	faculty/models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+sfid	hod/models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+sfid	lgin/models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+sfid	models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+sfid	student/models.py	/^    sfid = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:59
+slot	clsteacher/models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	clsteacher/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	clsteacher/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+slot	faculty/models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	faculty/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	faculty/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+slot	hod/models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	hod/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	hod/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+slot	lgin/models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	lgin/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	lgin/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+slot	models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+slot	student/models.py	/^    slot = models.CharField(max_length=1, blank=True, null=True)$/;"	kind:variable	line:128
+slot	student/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:17
+slot	student/models.py	/^    slot = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:61
+sname	clsteacher/models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	clsteacher/models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+sname	faculty/models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	faculty/models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+sname	hod/models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	hod/models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+sname	lgin/models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	lgin/models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+sname	models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+sname	student/models.py	/^    sname = models.CharField(max_length=30, blank=True, null=True)$/;"	kind:variable	line:86
+sname	student/models.py	/^    sname = models.CharField(max_length=50, blank=True, null=True)$/;"	kind:variable	line:50
+ssnor	clsteacher/models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+ssnor	faculty/models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+ssnor	hod/models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+ssnor	lgin/models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+ssnor	models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+ssnor	student/models.py	/^    ssnor = models.FloatField(primary_key=True)$/;"	kind:variable	line:48
+stno	clsteacher/models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+stno	faculty/models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+stno	hod/models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+stno	lgin/models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+stno	models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+stno	student/models.py	/^    stno = models.FloatField(primary_key=True)$/;"	kind:variable	line:125
+sts	clsteacher/models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+sts	faculty/models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+sts	hod/models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+sts	lgin/models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+sts	models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+sts	student/models.py	/^    sts = models.FloatField(primary_key=True)$/;"	kind:variable	line:115
+student	student/views.py	/^def student(request):$/;"	kind:function	line:6
+surt	clsteacher/models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+surt	faculty/models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+surt	hod/models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+surt	lgin/models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+surt	models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+surt	student/models.py	/^    surt = models.ForeignKey(TestSub, models.DO_NOTHING, db_column='surt', blank=True, null=True)$/;"	kind:variable	line:138
+swt	clsteacher/models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+swt	faculty/models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+swt	hod/models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+swt	lgin/models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+swt	models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+swt	student/models.py	/^    swt = models.FloatField(primary_key=True)$/;"	kind:variable	line:136
+table	clsteacher/migrations/0002_auto_20170202_0927.py	/^            table='student_sem_enr',$/;"	kind:variable	line:88
+table	faculty/migrations/0002_auto_20170202_0927.py	/^            table='student_sem_enr',$/;"	kind:variable	line:88
+table	hod/migrations/0002_auto_20170202_0927.py	/^            table='student_sem_enr',$/;"	kind:variable	line:88
+table	lgin/migrations/0002_auto_20170202_0927.py	/^            table='student_sem_enr',$/;"	kind:variable	line:88
+table	student/migrations/0002_auto_20170202_0927.py	/^            table='student_sem_enr',$/;"	kind:variable	line:88
+tests.py	clsteacher/tests.py	1;"	kind:file	line:1
+tests.py	faculty/tests.py	1;"	kind:file	line:1
+tests.py	hod/tests.py	1;"	kind:file	line:1
 tests.py	lgin/tests.py	1;"	kind:file	line:1
-tid	lgin/models.py	/^    tid = models.CharField(primary_key=True, max_length=9)$/;"	kind:variable	line:128
-tid	lgin/models.py	/^    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)$/;"	kind:variable	line:141
-tid	lgin/models.py	/^    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')$/;"	kind:variable	line:151
-tid	models.py	/^    tid = models.CharField(primary_key=True, max_length=9)$/;"	kind:variable	line:257
-tid	models.py	/^    tid = models.ForeignKey(TestId, models.DO_NOTHING, db_column='tid', primary_key=True)$/;"	kind:variable	line:270
-tid	models.py	/^    tid = models.ForeignKey(TestNo, models.DO_NOTHING, db_column='tid')$/;"	kind:variable	line:280
-tno	lgin/models.py	/^    tno = models.NullBooleanField()$/;"	kind:variable	line:133
-tno	models.py	/^    tno = models.NullBooleanField()$/;"	kind:variable	line:262
+tests.py	student/tests.py	1;"	kind:file	line:1
+tno	clsteacher/models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+tno	faculty/models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+tno	hod/models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+tno	lgin/models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+tno	models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+tno	student/models.py	/^    tno = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:126
+ttno	clsteacher/models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
+ttno	faculty/models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
+ttno	hod/models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
+ttno	lgin/models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
+ttno	models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
+ttno	student/models.py	/^    ttno = models.ForeignKey('TestTme', models.DO_NOTHING, db_column='ttno', blank=True, null=True)$/;"	kind:variable	line:116
 uid	lgin/views.py	/^uid=None$/;"	kind:variable	line:8
-unique_together	lgin/models.py	/^        unique_together = (('fid', 'responsibility'),)$/;"	kind:variable	line:66
-unique_together	lgin/models.py	/^        unique_together = (('fid', 'sem', 'year'),)$/;"	kind:variable	line:31
-unique_together	lgin/models.py	/^        unique_together = (('scode', 'branch'),)$/;"	kind:variable	line:124
-unique_together	lgin/models.py	/^        unique_together = (('usn', 'eno'),)$/;"	kind:variable	line:87
-unique_together	lgin/models.py	/^        unique_together = (('usn', 'eno', 'dte'),)$/;"	kind:variable	line:77
-unique_together	lgin/models.py	/^        unique_together = (('usn', 'sem', 'section'),)$/;"	kind:variable	line:113
-unique_together	lgin/models.py	/^        unique_together = (('usn', 'tid'),)$/;"	kind:variable	line:157
-unique_together	models.py	/^        unique_together = (('app_label', 'model'),)$/;"	kind:variable	line:129
-unique_together	models.py	/^        unique_together = (('content_type', 'codename'),)$/;"	kind:variable	line:42
-unique_together	models.py	/^        unique_together = (('fid', 'responsibility'),)$/;"	kind:variable	line:185
-unique_together	models.py	/^        unique_together = (('fid', 'sem', 'year'),)$/;"	kind:variable	line:103
-unique_together	models.py	/^        unique_together = (('group', 'permission'),)$/;"	kind:variable	line:30
-unique_together	models.py	/^        unique_together = (('scode', 'branch'),)$/;"	kind:variable	line:253
-unique_together	models.py	/^        unique_together = (('user', 'group'),)$/;"	kind:variable	line:71
-unique_together	models.py	/^        unique_together = (('user', 'permission'),)$/;"	kind:variable	line:82
-unique_together	models.py	/^        unique_together = (('usn', 'eno'),)$/;"	kind:variable	line:216
-unique_together	models.py	/^        unique_together = (('usn', 'eno', 'dte'),)$/;"	kind:variable	line:206
-unique_together	models.py	/^        unique_together = (('usn', 'sem', 'section'),)$/;"	kind:variable	line:242
-unique_together	models.py	/^        unique_together = (('usn', 'tid'),)$/;"	kind:variable	line:286
 urlpatterns	cams/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	clsteacher/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	faculty/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	hod/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
 urlpatterns	lgin/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	student/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
 urls.py	cams/urls.py	1;"	kind:file	line:1
+urls.py	clsteacher/urls.py	1;"	kind:file	line:1
+urls.py	faculty/urls.py	1;"	kind:file	line:1
+urls.py	hod/urls.py	1;"	kind:file	line:1
 urls.py	lgin/urls.py	1;"	kind:file	line:1
-user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:114
-user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:65
-user	models.py	/^    user = models.ForeignKey(AuthUser, models.DO_NOTHING)$/;"	kind:variable	line:76
-userid	lgin/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:14
-userid	models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:86
-username	models.py	/^    username = models.CharField(unique=True, max_length=300, blank=True, null=True)$/;"	kind:variable	line:50
-usn	lgin/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:70
-usn	lgin/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:81
-usn	lgin/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:91
-usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:104
-usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:150
-usn	models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:199
-usn	models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:210
-usn	models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:220
-usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:233
-usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn')$/;"	kind:variable	line:279
+urls.py	student/urls.py	1;"	kind:file	line:1
+userid	clsteacher/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+userid	faculty/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+userid	hod/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+userid	lgin/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+userid	models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+userid	student/models.py	/^    userid = models.CharField(primary_key=True, max_length=10)$/;"	kind:variable	line:27
+usn	clsteacher/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	clsteacher/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	clsteacher/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	clsteacher/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
+usn	faculty/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	faculty/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	faculty/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	faculty/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
+usn	hod/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	hod/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	hod/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	hod/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
+usn	lgin/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	lgin/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	lgin/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
+usn	models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
+usn	student/models.py	/^    usn = models.ForeignKey('StudentList', models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:15
+usn	student/models.py	/^    usn = models.ForeignKey(CamsLogin, models.DO_NOTHING, db_column='usn', primary_key=True)$/;"	kind:variable	line:85
+usn	student/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:102
+usn	student/models.py	/^    usn = models.ForeignKey(StudentList, models.DO_NOTHING, db_column='usn', blank=True, null=True)$/;"	kind:variable	line:137
 usr	lgin/forms.py	/^    usr = forms.CharField(label='Username:', max_length=100)$/;"	kind:variable	line:5
+views.py	clsteacher/views.py	1;"	kind:file	line:1
+views.py	faculty/views.py	1;"	kind:file	line:1
+views.py	hod/views.py	1;"	kind:file	line:1
 views.py	lgin/views.py	1;"	kind:file	line:1
+views.py	student/views.py	1;"	kind:file	line:1
 wsgi.py	cams/wsgi.py	1;"	kind:file	line:1
-year	lgin/models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:129
-year	lgin/models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:40
-year	lgin/models.py	/^    year = models.IntegerField(primary_key=True)$/;"	kind:variable	line:26
-year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:159
-year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:258
-year	models.py	/^    year = models.IntegerField()$/;"	kind:variable	line:98
+year	clsteacher/models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	clsteacher/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	clsteacher/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	clsteacher/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year	faculty/models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	faculty/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	faculty/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	faculty/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year	hod/models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	hod/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	hod/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	hod/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year	lgin/models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	lgin/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	lgin/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	lgin/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year	models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year	student/models.py	/^    year = models.DateField(blank=True, null=True)$/;"	kind:variable	line:16
+year	student/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:107
+year	student/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:40
+year	student/models.py	/^    year = models.FloatField(blank=True, null=True)$/;"	kind:variable	line:65
+year_of_joining	clsteacher/models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
+year_of_joining	faculty/models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
+year_of_joining	hod/models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
+year_of_joining	lgin/models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
+year_of_joining	models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
+year_of_joining	student/models.py	/^    year_of_joining = models.DateField(blank=True, null=True)$/;"	kind:variable	line:89
