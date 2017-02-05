@@ -9,7 +9,6 @@ def hod(request):
     try:
         assert request.session['name'][0:3]=='HOD'
         return render_to_response('hod.html')
-
     except AssertionError:
         return HttpResponse('Please re-login as HOD to gain access')
 
@@ -123,7 +122,7 @@ def student_data(request):
         tmpl = loader.get_template("student.html")
         cont = Context({'StudentSemEnr': rec2})
         return HttpResponse(tmpl.render(cont))
-    return HttpResponse('No ClassTeachers for the selected attributes')
+    return HttpResponse('No Students enrolled for the selected attributes')
 
 
 

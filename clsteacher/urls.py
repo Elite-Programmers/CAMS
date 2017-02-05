@@ -3,4 +3,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$',views.ctea,name='ClassTeacher'),
+    url(r'^faculty/$',views.faculty,name='Faculty'),
+    url(r'^student/$',views.student,name='Student'),
 ]

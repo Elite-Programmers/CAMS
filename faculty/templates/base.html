@@ -1,0 +1,104 @@
+{% load admin_static material_admin i18n %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}">
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <title>Login</title>
+        {% block css %}
+        {% include 'admin/includes/material_css.html' %}
+        {% block extrastyle %}{% endblock %}
+        {% endblock css %}
+        {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
+        {% block js %}
+        <script src="{% static 'material/js/jquery-2.2.0.js' %}"></script>
+        <script>
+            // Use same django for material and django admin
+            var django = django || {};
+            django.jQuery = jQuery.noConflict(true);
+            window.jQuery = window.$ = django.jQuery
+        </script>
+        <script type="text/javascript">window.__admin_media_prefix__ = "{% filter escapejs %}{% static "admin/" %}{% endfilter %}";</script>
+        <script type="text/javascript">window.__admin_utc_offset__ = "{% filter escapejs %}{% now "Z" %}{% endfilter %}";</script>
+        {% if user.is_authenticated %}<script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>{% endif %}
+        {{ media.js }}
+        {% endblock js %}
+        {% block extrahead %}{% endblock %}
+        {% endblock head %}
+    </head>
+    <body class="{% if is_popup %}popup{% endif %}">
+        <header>
+            {% block header %}
+            {% if not is_popup %}
+
+            {% endif %}
+            {% endblock header %}
+        </header>
+        <main>
+            {% block main %}
+                {% block topbar %}
+                <nav class="topbar">
+
+                        <div class="brand-logo">
+                            {% block page_title %}
+                            <a href="/" class="page-title">{% block brand-logo %}{% trans 'CAMS' %}{% endblock %}</a>
+                            {% endblock %}
+                        </div>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            {% block userlinks %}
+                            {% if user.is_active and user.is_staff %}
+                                {% url 'django-admindocs-docroot' as docsroot %}
+                                {% if docsroot %}
+                                    <li><a href="{{ docsroot }}">{% trans 'Documentation' %}</a></li>
+                                {% endif %}
+                            {% endif %}
+                            {% if user.has_usable_password %}
+                                <li><a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a></li>
+                            {% endif %}
+                            {% if user.is_authenticated %}
+                            <li><a href="{% url 'admin:logout' %}" data-turbolinks="false"><i class="material-icons right">exit_to_app</i>{% trans "Logout" %}</a></li>
+                            {% else %}
+                            <li><a href="/login/admin/" data-turbolinks="false"><i class="material-icons right">lock_open</i>{% trans "Admin" %}</a></li>
+                            {% endif %}
+                            {% endblock %}
+                        </ul>
+                    </div>
+                </nav>
+                {% endblock topbar %}
+                {% block breadcrumbs %}
+                {% if not is_popup %}
+                <nav class="breadcrumbs">
+                    <div class="nav-wrapper">
+                        {% block breadcrumbs_items %}{% endblock %}
+                    </div>
+                </nav>
+                {% endif %}
+                {% endblock %}
+                <div class="content">
+                    {% block content %}{% endblock %}
+                </div>
+            {% endblock main %}
+        </main>
+        <footer>
+            {% block footer %}
+            {% endblock footer %}
+        </footer>
+
+        {% include 'admin/includes/material_js.html' %}
+        {% block extrajs %}{% endblock %}
+
+        {% block messages %}
+        {% if messages %}
+        <script type="text/javascript">
+            $(document).ready(function() {
+                {% for message in messages %}
+                Materialize.toast('{{ message|capfirst }}', 10000, 'alert-{{ message.tags }}')
+                {% endfor %}
+            });
+        </script>
+        {% endif %}
+        {% endblock messages %}
+    </body>
+</html>
