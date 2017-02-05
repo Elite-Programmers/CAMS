@@ -22,7 +22,7 @@ def decrole(request):
         return HttpResponseRedirect('/login/hod/')
     except FacultyList.DoesNotExist:
         try:
-            rec = ClassTchr.objects.get(fid__exact=uid)
+            rec = ClassTchr.objects.get(fid__exact=uid,year=2017)
             request.session['name']='CLT'+uid
             return HttpResponseRedirect('/login/clsteacher/')
         except ClassTchr.DoesNotExist:

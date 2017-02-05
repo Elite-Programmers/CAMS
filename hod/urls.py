@@ -6,4 +6,5 @@ urlpatterns = [
     url(r'^classtchr/$', views.cltchr, name='classtchr'),
     url(r'^faculty/$', views.faculty, name='faculty'),
     url(r'^student/$', views.student, name='student'),
+    url(r'^att/$',views.hod,name='Attendance'),
 ]
