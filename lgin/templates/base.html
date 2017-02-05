@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-        <title>HOD</title>
+        <title>Login</title>
         {% block css %}
         {% include 'admin/includes/material_css.html' %}
         {% block extrastyle %}{% endblock %}
@@ -30,14 +30,12 @@
     </head>
     <body class="{% if is_popup %}popup{% endif %}">
 
-        <main>
-            {% block main %}
                 {% block topbar %}
                 <nav class="topbar">
 
                         <div class="brand-logo">
                             {% block page_title %}
-                            <a href="/" class="page-title">{% block brand-logo %}{% trans 'CAMS' %}{% endblock %}</a>
+                            <a href="/login" class="page-title">{% block brand-logo %}{% trans 'CAMS' %}{% endblock %}</a>
                             {% endblock %}
                         </div>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -73,8 +71,6 @@
                 <div class="content">
                     {% block content %}{% endblock %}
                 </div>
-            {% endblock main %}
-        </main>
         <footer>
             {% block footer %}
             {% endblock footer %}
