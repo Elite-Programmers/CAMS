@@ -24,7 +24,3 @@ class SemSecForm(forms.Form):
     semester = forms.ChoiceField(label='Select Semester', choices=SEM)
     section = forms.ChoiceField(label='Select Section',choices=SECTION)
     year = forms.IntegerField(initial=2017,min_value=2017,max_value=2100)
-
-class SecForm(forms.Form):
-    section = forms.ChoiceField(label='Select Section',choices=SECTION)
-    year = forms.IntegerField(initial=2017,min_value=2017,max_value=2100)
