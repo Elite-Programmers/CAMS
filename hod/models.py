@@ -175,7 +175,7 @@ class DjangoSession(models.Model):
 
 
 class FacEnr(models.Model):
-    sfid = models.FloatField(blank=True, null=True)
+    sfid = models.FloatField(blank=True, null=True,primary_key=True)
     fid = models.ForeignKey('FacultyList', models.DO_NOTHING, db_column='fid', blank=True, null=True)
     slot = models.FloatField(blank=True, null=True)
     day = models.CharField(max_length=3, blank=True, null=True)

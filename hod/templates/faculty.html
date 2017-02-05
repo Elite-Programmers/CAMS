@@ -1,0 +1,36 @@
+{% extends "base_site.html" %}
+{% load i18n admin_static material_form %}
+
+{% block content %}
+<div class="row">
+    <div class="col s12 offset-m3 m6">
+
+        <div class="card">
+            <div class="card-content">
+
+                <center><h4>Faculty Enrolled</h4>
+
+                    <table border = 1px cellpadding="3" style="font-family:Arial">
+                        <tr>
+                            <th><b><u><i>Name</th>
+                            <th><b><u><i>Section</th>
+                            <th><b><u><i>Sub Code</th>
+                            <th><b><u><i>Day</th>
+                            <th><b><u><i>Slot</th>
+                        </tr>
+                        {% for id in FacEnr %}
+                        <tr>
+                            <td>{{id.fid.name}}</td>
+                            <td>{{id.section}}</td>
+                            <td>{{id.scode}}</td>
+                            <td>{{id.day}}</td>
+                            <td>{{id.slot}}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
