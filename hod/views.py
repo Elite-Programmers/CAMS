@@ -1,10 +1,14 @@
+import datetime
+from django.db import IntegrityError
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response,redirect
 from django.template import Context, loader
-from .models import FacultyList,ClassTchr,FacEnr,StudentSemEnr
-from .forms import SemSecForm
-
+from .models import FacultyList,ClassTchr,FacEnr,StudentSemEnr,CamsLogin,StudentList,Att
+from .forms import SemSecForm,AttForm,Att2Form
+global sem,sec
+sem=1
+sec='B'
 def hod(request):
     try:
         assert request.session['name'][0:3]=='HOD'
@@ -147,3 +151,64 @@ def student(request):
     else:
         form = SemSecForm()
     return render(request, 'hod_student.html', {'form': form})
+
+def student_list(request):
+    try:
+        assert request.session['name'][0:3]=='HOD'
+    except AssertionError:
+        return HttpResponse('Please re-login as HOD to gain access')
+    global sem,sec
+    form = Att2Form(semester=sem,section=sec,faculty=request.session['name'][3:])
+    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = Att2Form(request.POST,semester=sem,section=sec,faculty=request.session['name'][3:])
+        # check whether it's valid:
+        if form.is_valid():
+            # process the data in form.cleaned_data as required
+            subject=form.cleaned_data.get('sub')
+            usns=form.cleaned_data.get('ids')
+            myslot=form.cleaned_data.get('slot')
+            rec=CamsLogin.objects.all()
+            rec2=StudentSemEnr.objects.filter(branch='CS',section=sec,sem=sem)
+            for x in rec:
+                if x.userid in usns:
+                    bb=StudentList.objects.get(usn=x.userid)
+                    db=Att.objects.create(usn=bb,slot=myslot,year=datetime.date.today(),scode=subject,poa='P')
+
+                else:
+                    for y in rec2:
+                        if y.usn.usn.userid==x.userid:
+                            bb=StudentList.objects.get(usn=x.userid)
+                            db=Att.objects.create(usn=bb,slot=myslot,year=datetime.date.today(),scode=subject,poa='A')
+
+
+
+
+            return HttpResponse("Successful")
+
+    #This fills up the "choices"
+
+    # if a GET (or any other method) we'll create a blank form
+
+    return render(request, 'hod_att2.html', {'form': form})
+
+
+def attn(request):
+    try:
+        assert request.session['name'][0:3]=='HOD'
+    except AssertionError:
+        return HttpResponse('Please re-login as HOD to gain access')
+    global sem,sec
+    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = AttForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            # process the data in form.cleaned_data as required
+            sec=form.cleaned_data.get('section')
+            sem=form.cleaned_data.get('semester')
+            return redirect('/login/hod/att2/')
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        form = AttForm()
+    return render(request, 'hod_att.html', {'form': form})

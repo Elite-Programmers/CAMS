@@ -16,7 +16,7 @@ class Att(models.Model):
     year = models.DateField(blank=True, null=True)
     slot = models.FloatField(blank=True, null=True)
     scode = models.CharField(max_length=8, blank=True, null=True)
-    day = models.CharField(max_length=6, blank=True, null=True)
+    poa = models.CharField(max_length=1, blank=True, null=True)
 
     class Meta:
         managed = False
